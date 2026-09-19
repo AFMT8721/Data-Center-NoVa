@@ -1,0 +1,110 @@
+﻿Region,Reg #,Facility Name,Classification,FIPS,County,SIC,NAICS,CO Emissions in Tons,NH3 Emissions in Tons,NOX Emissions in Tons,PM 10 Emissions in Tons,PM 2.5 Emissions in Tons,SO2 Emissions in Tons,VOC Emissions in Tons,Facility Total
+BRRO,20124,Virginia Tech,Major/Potential Major,121,Montgomery County,8221,611310,115.36,0.00,141.12,269.94,1.98,3.55,2.43,534.38
+BRRO,20131,RES dba Steel Dynamics Roanoke Bar Division,Major/Potential Major,770,Roanoke City,3312,331111,500.30,0.00,133.48,63.22,7.52,81.86,80.96,867.33
+BRRO,20225,Lhoist North America - Kimballton Plant,Major/Potential Major,071,Giles County,3274,327410,6274.68,0.00,1476.68,6118.32,12.96,143.24,135.41,14161.29
+BRRO,20232,Roanoke Cement Company,Major/Potential Major,023,Botetourt County,3241,327310,1389.83,0.00,1966.53,2299.52,64.13,178.25,81.49,5979.76
+BRRO,20304,Celanese Acetate LLC,Major/Potential Major,071,Giles County,2823,325221,357.70,0.00,576.85,845.67,587.12,101.87,86.66,2555.86
+BRRO,20328,WestRock Virginia Corporation - Covington,Major/Potential Major,580,Covington City,2611,322121,1241.47,0.00,3108.93,6229.65,1013.80,640.28,573.38,12807.51
+BRRO,20329,Ingevity Virginia Corporation,Major/Potential Major,580,Covington City,2819,325998,101.42,0.00,102.22,0.09,68.63,26.07,26.07,324.51
+BRRO,20460,American Electric Power Glen Lyn,True Minor/Shutdown,071,Giles County,4911,221112,7.82,0.00,168.45,469.87,0.88,8.04,2.64,657.70
+BRRO,20543,RADVA Corporation - Radford Plant,Major/Potential Major,750,Radford City,3086,326140,3.43,0.00,4.09,0.02,104.86,0.31,0.31,113.02
+BRRO,20656,US Army - RAAP,Major/Potential Major,121,Montgomery County,2892,325920,44.90,0.00,1215.30,3165.59,1307.41,87.62,24.70,5845.52
+BRRO,20765,Volvo Trucks - New River Valley Plant,Major/Potential Major,155,Pulaski County,3711,336120,15.94,0.00,19.31,0.11,413.52,23.91,23.90,496.69
+BRRO,21526,NOVEC Energy Production Halifax County Biomass,Major/Potential Major,083,Halifax County,4911,221119,168.98,0.00,133.57,0.54,27.77,47.22,0.00,378.08
+BRRO,30106,Goodyear Tire and Rubber Company Danville,Major/Potential Major,590,Danville City,3011,326211,55.08,0.00,178.34,14.40,435.89,40.34,7.70,731.75
+BRRO,30294,CPFilms Inc.,Major/Potential Major,089,Henry County,3083,326130,8.73,0.00,10.39,0.06,284.59,0.79,0.79,305.35
+BRRO,30389,GP Big Island LLC,Major/Potential Major,019,Bedford County,2631,322130,606.42,0.00,437.90,39.35,330.14,146.50,99.63,1659.94
+BRRO,30397,Griffin Pipe Products Co LLC,Major/Potential Major,680,Lynchburg City,3321,331511,204.72,0.00,56.87,43.47,253.30,61.96,26.94,647.26
+BRRO,30515,Southern Finishing,Major/Potential Major,690,Martinsville City,2511,337122,7.33,0.00,6.19,1.20,172.60,5.53,3.53,196.38
+BRRO,30549,Greif Packaging LLC,Major/Potential Major,009,Amherst County,2631,322130,489.85,0.00,427.52,5.17,160.47,32.17,30.01,1145.19
+BRRO,30718,Owens-Brockway Glass Container Inc,Major/Potential Major,143,Pittsylvania County,3221,327213,0.79,0.00,134.50,155.72,5.70,25.07,25.07,346.85
+BRRO,30845,Norcraft Companies,Major/Potential Major,680,Lynchburg City,2434,337110,0.00,0.00,0.00,0.00,197.87,11.54,0.00,209.41
+BRRO,30859,Dominion - Altavista Power Station,Major/Potential Major,031,Campbell County,4911,221112,293.25,0.00,217.50,11.20,2.97,21.85,19.27,566.04
+BRRO,30861,Dominion - Mecklenburg Power Station,Major/Potential Major,117,Mecklenburg County,4911,221112,41.80,0.00,668.10,290.30,4.97,42.57,1.25,1048.99
+BRRO,30864,Transco Gas Pipe Line Corp Station 165,Major/Potential Major,143,Pittsylvania County,4922,486210,69.18,0.00,332.30,0.23,17.06,3.75,3.75,426.27
+BRRO,30867,Dominion/ODEC - Clover Power Station,Major/Potential Major,083,Halifax County,4911,221112,277.24,0.00,8413.47,1774.12,87.31,875.22,67.05,11494.41
+BRRO,30871,Dominion - Pittsylvania Power Station,Major/Potential Major,143,Pittsylvania County,4911,221119,612.51,0.00,161.50,7.91,18.62,42.76,5.63,848.93
+BRRO,30903,Georgia-Pacific Wood Products LLC,Major/Potential Major,031,Campbell County,2493,321219,183.68,0.00,182.74,19.97,116.87,132.17,120.84,756.26
+BRRO,30905,"Huber Engineered Woods, LLC",Major/Potential Major,083,Halifax County,2493,321219,120.78,0.00,132.37,14.96,122.27,104.24,104.24,598.86
+BRRO,30996,Morgan Lumber Company,Major/Potential Major,037,Charlotte County,2421,321113,56.59,0.00,20.75,2.36,113.79,0.00,0.00,193.49
+BRRO,31013,"Bassett Furniture Industries, Inc., Table Plant 11",Major/Potential Major,089,Henry County,2511,337122,0.38,0.00,0.45,0.00,147.25,0.71,0.71,149.50
+BRRO,31039,ArborTech Forest Products Inc,Major/Potential Major,135,Nottoway County,2421,321113,54.92,0.00,54.43,4.32,145.37,32.95,15.05,307.04
+BRRO,32004,Dominion - Bear Garden CT Station,Major/Potential Major,029,Buckingham County,4911,221112,18.90,0.00,100.88,7.51,2.66,20.95,20.95,171.85
+BRRO,32035,Elkay Wood Product Company,Major/Potential Major,143,Pittsylvania County,2434,337110,0.58,0.00,1.32,0.05,146.58,5.31,0.05,153.89
+NRO,40075,Bingham and Taylor Corp - Div of Virginia Ind,Major/Potential Major,047,Culpeper County,3321,331511,393.24,0.00,1.65,3.36,36.75,11.63,8.27,454.90
+NRO,40728,MASCO Cabinetry LLC - Culpeper,Major/Potential Major,047,Culpeper County,2434,337110,0.72,0.00,0.85,0.06,124.54,1.04,1.04,128.25
+NRO,40808,Dominion - Gordonsville Power Station,Major/Potential Major,109,Louisa County,4911,221112,19.40,0.00,144.81,9.50,63.22,31.55,34.04,302.52
+NRO,40809,Birchwood Power Facility,Major/Potential Major,099,King George County,4931,221112,138.29,0.00,270.30,265.40,1.89,47.02,40.98,763.87
+NRO,40903,King George Landfill Inc,Major/Potential Major,099,King George County,4953,562212,121.35,0.00,84.55,45.51,37.45,28.87,26.50,344.23
+NRO,40961,Dominion - Remington CT Station,Major/Potential Major,061,Fauquier County,4911,221112,9.48,0.00,162.43,4.91,9.60,30.57,30.57,247.56
+NRO,40996,Old Dominion Electric Cooperative - Marsh Run,Major/Potential Major,061,Fauquier County,4911,221112,80.27,0.00,124.54,2.84,7.99,40.82,40.82,297.28
+NRO,41057,Trae Fuels LTD,Major/Potential Major,109,Louisa County,2411,113310,12.55,0.00,27.50,2.25,72.30,108.66,0.00,223.26
+NRO,70225,Dominion - Possum Point Power Station,Major/Potential Major,153,Prince William County,4911,221112,116.57,0.00,767.21,1750.53,10.15,64.81,45.73,2755.00
+NRO,70714,Noman M Cole Jr Pollution Control Plant,Major/Potential Major,059,Fairfax County,4952,221320,250.43,0.00,44.48,1.84,1.53,6.28,6.15,310.71
+NRO,71895,"Covanta Alexandria/Arlington, Inc.",Major/Potential Major,510,Alexandria City,4953,562213,56.80,0.00,470.11,3.75,1.25,1.02,10.06,542.99
+NRO,71920,"Covanta Fairfax, Inc.",Major/Potential Major,059,Fairfax County,4953,562213,21.11,0.00,1647.88,121.62,6.06,14.06,0.13,1810.86
+NRO,71961,Michigan Cogeneration Systems Inc,Major/Potential Major,059,Fairfax County,4911,221119,123.40,0.00,62.20,3.07,7.56,8.96,8.96,214.15
+NRO,72340,Prince William County Sanitary Landfill,Major/Potential Major,153,Prince William County,4953,562212,240.73,0.00,53.10,39.58,12.14,17.06,17.06,379.67
+PRO,31047,INGENCO - Amelia,Major/Potential Major,007,Amelia County,4931,221112,154.35,0.00,138.79,2.07,40.91,20.44,20.44,377.00
+PRO,40126,WestRock CP LLC - West Point,Major/Potential Major,101,King William County,2631,322130,1389.95,0.00,1358.11,541.37,502.99,424.14,393.38,4609.94
+PRO,40920,Middle Peninsula Landfill,Major/Potential Major,073,Gloucester County,4953,562212,229.46,0.00,122.26,5.64,18.24,19.89,19.17,414.66
+PRO,50076,Philip Morris USA Manufacturing Center,Major/Potential Major,760,Richmond City,2111,312221,34.56,0.00,98.12,0.33,149.79,8.86,8.85,300.51
+PRO,50232,Honeywell Resins and Chemicals LLC -Hopewell,Major/Potential Major,670,Hopewell City,2869,325199,180.42,0.00,4877.94,154.75,343.50,181.87,117.59,5856.07
+PRO,50249,Kaiser Aluminum Fabricated Products LLC,Major/Potential Major,041,Chesterfield County,3354,331316,2.08,0.00,2.56,0.02,175.42,0.13,0.13,180.34
+PRO,50260,Reynolds Consumer Products LLC - Bellwood Printing,Major/Potential Major,041,Chesterfield County,2754,323111,2.29,0.00,2.73,0.02,110.25,0.21,0.21,115.71
+PRO,50283,Georgia Pacific Wood Products - Emporia - Plywood,Major/Potential Major,081,Greensville County,2436,321212,975.21,0.00,215.48,26.43,69.21,149.73,146.41,1582.48
+PRO,50336,Dominion - Gravel Neck CT Station,Major/Potential Major,181,Surry County,4911,221113,4.68,0.00,112.16,14.19,1.72,1.47,1.33,135.55
+PRO,50363,Hercules Inc Aqualon Div,Major/Potential Major,670,Hopewell City,2869,325199,0.00,0.00,0.00,0.00,592.80,10.93,10.93,614.66
+PRO,50370,WestRock CP LLC - Hopewell,Major/Potential Major,670,Hopewell City,2631,322130,771.45,0.00,1080.90,337.42,174.36,296.37,216.14,2876.63
+PRO,50396,Dominion - Chesterfield Power Station,Major/Potential Major,041,Chesterfield County,4911,221112,687.76,0.00,3174.27,2546.83,96.11,992.72,259.77,7757.46
+PRO,50397,E I du Pont de Nemours and Co-Spruance Plt,Major/Potential Major,041,Chesterfield County,2824,325222,6.00,0.00,9.02,0.44,267.88,26.47,26.47,336.28
+PRO,50418,DuPont Teijin Films,Major/Potential Major,041,Chesterfield County,2821,325211,18.84,0.00,24.33,4.69,106.43,14.00,13.90,182.19
+PRO,50722,Philip Morris USA Inc - Park 500,Major/Potential Major,041,Chesterfield County,2141,312229,37.31,0.00,108.25,0.37,209.29,11.69,11.68,378.59
+PRO,50840,Bear Island Paper WB LLC,Major/Potential Major,085,Hanover County,2621,322122,207.69,0.00,185.90,224.42,501.62,64.24,64.24,1248.10
+PRO,50950,James River Genco LLC,Major/Potential Major,670,Hopewell City,4911,221112,652.92,0.00,941.14,1709.51,3.45,38.75,18.98,3364.75
+PRO,50967,Hopewell Cogeneration Ltd Partnership,Major/Potential Major,670,Hopewell City,4911,221112,80.05,0.00,758.87,52.13,6.91,16.53,11.65,926.14
+PRO,50988,Dominion - Bellemeade Power Station,Major/Potential Major,760,Richmond City,4911,221112,156.67,0.00,156.13,23.51,5.93,2.88,2.88,348.00
+PRO,51018,Doswell Limited Partnership,Major/Potential Major,085,Hanover County,4911,221112,496.52,0.00,722.35,14.51,78.21,523.52,523.14,2358.25
+PRO,51019,Dominion - Hopewell Power Station,Major/Potential Major,670,Hopewell City,4911,221112,455.37,0.00,202.45,12.30,5.22,17.60,16.43,709.37
+PRO,51033,Spruance Genco LLC,Major/Potential Major,760,Richmond City,4911,221112,230.90,0.00,1450.67,407.82,1.32,29.87,29.85,2150.43
+PRO,51264,Chaparral Virginia Incorporated,Major/Potential Major,053,Dinwiddie County,3312,331111,1957.47,0.00,250.36,17.42,49.27,24.54,23.81,2322.87
+PRO,51998,INGENCO - Charles City,Major/Potential Major,036,Charles City County,4931,221112,204.83,0.00,174.37,4.99,38.12,12.71,12.71,447.74
+PRO,52037,INGENCO - Chester Plant,Major/Potential Major,041,Chesterfield County,4931,221112,171.16,0.00,155.95,53.43,51.43,25.91,25.91,483.78
+PRO,52148,INGENCO - King and Queen,Major/Potential Major,097,King and Queen County,4931,221119,210.95,0.00,175.85,38.87,62.68,15.66,15.66,519.67
+PRO,52154,INGENCO - Brunswick Plant,Major/Potential Major,025,Brunswick County,4931,221112,217.52,0.00,182.62,2.22,61.67,18.51,18.51,501.05
+PRO,52198,Richmond Energy LLC,Major/Potential Major,087,Henrico County,4931,221119,240.70,0.00,34.00,3.60,6.70,5.40,5.40,295.80
+SWRO,10200,Jewell Coke Company LLP,Major/Potential Major,027,Buchanan County,3312,324199,58.71,0.00,515.85,4844.65,52.73,768.66,0.56,6241.15
+SWRO,10236,American Electric Power-Clinch River Plant,Major/Potential Major,167,Russell County,4911,221112,51.21,0.00,805.21,2059.32,6.05,111.99,46.78,3080.56
+SWRO,10308,Vaughan-Bassett Furniture Company,Major/Potential Major,640,Galax City,2511,337122,41.36,0.00,35.21,7.98,621.43,12.32,11.57,729.87
+SWRO,10945,Buchanan Preparation Plant Facility,Major/Potential Major,027,Buchanan County,1221,212111,54.96,0.00,22.60,0.02,76.36,359.23,17.20,530.37
+SWRO,11526,Dominion - Virginia City Hybrid Energy Center,Major/Potential Major,195,Wise County,4911,221112,908.52,0.00,974.94,100.42,10.52,199.55,173.57,2367.52
+TRO,40333,Tyson Farms Inc - Temperanceville,Major/Potential Major,001,Accomack County,2015,311615,7.90,0.00,86.13,112.65,0.67,14.51,14.33,236.19
+TRO,60065,Ball Metal Beverage Container Corporation-Williamsburg,Major/Potential Major,095,James City County,3411,332431,6.56,0.00,7.87,0.05,331.37,1.87,0.00,347.72
+TRO,60116,Plains Marketing LP Yorktown,Major/Potential Major,199,York County,5171,424710,17.44,0.00,6.92,0.00,646.49,0.00,0.00,670.85
+TRO,60137,Dominion - Yorktown Power Station,Major/Potential Major,199,York County,4911,221112,85.53,0.00,1047.15,4549.34,12.10,189.84,46.85,5930.80
+TRO,60152,Anheuser-Busch LLC - Williamsburg Brewery,Major/Potential Major,095,James City County,2082,312120,31.24,0.00,38.21,3.48,119.77,4.55,2.94,200.19
+TRO,60153,Huntington Ingalls Incorporated - NN Shipbldg Div,Major/Potential Major,700,Newport News City,3731,336611,38.03,0.00,236.69,351.13,222.76,44.75,9.22,902.59
+TRO,60214,International Paper - Franklin Mill,Major/Potential Major,093,Isle of Wight County,2621,322121,412.34,0.00,488.14,263.67,271.31,430.91,145.25,2011.64
+TRO,60277,Perdue AgriBusiness - Chesapeake,Major/Potential Major,550,Chesapeake City,2075,311222,29.06,0.00,19.45,0.21,380.93,66.59,3.93,500.17
+TRO,60350,HRSD Virginia Initiative Plant,Major/Potential Major,710,Norfolk City,4952,221320,113.31,0.00,25.09,173.73,17.56,0.82,0.00,330.51
+TRO,60351,HRSD - Boat Harbor Sewage Treatment Plant,Major/Potential Major,700,Newport News City,4952,221320,104.81,0.00,17.39,162.82,11.25,0.57,0.00,296.84
+TRO,60355,HRSD - Williamsburg Sewage Treatment Plant,Major/Potential Major,095,James City County,4952,221320,84.84,0.00,14.47,131.19,7.87,0.02,0.00,238.39
+TRO,60431,HRSD Chesapeake-Elizabeth Sewage Treatment Plant,Major/Potential Major,810,Virginia Beach City,4952,221320,98.42,0.00,17.83,151.64,12.83,0.50,0.00,281.22
+TRO,60923,Owens-Brockway Glass Container Inc,Major/Potential Major,095,James City County,3221,327213,5.65,0.00,406.65,261.65,5.98,16.89,16.18,713.00
+TRO,61018,Wheelabrator Portsmouth Inc - RDF Facility,Major/Potential Major,740,Portsmouth City,4961,221330,246.78,0.00,1275.29,195.93,4.47,10.04,0.15,1732.65
+TRO,61019,Hampton/NASA Steam Plant,Major/Potential Major,650,Hampton City,4961,221330,28.21,0.00,104.79,75.80,3.35,1.66,0.00,213.81
+TRO,61049,Virginia Renewable Power - Portsmouth LLC,Major/Potential Major,740,Portsmouth City,4911,221112,126.41,0.00,157.25,386.61,0.32,3.03,1.44,675.06
+TRO,61093,Dominion - Southampton Power Station,Major/Potential Major,175,Southampton County,4911,221112,580.19,0.00,281.57,14.30,15.04,14.37,11.12,916.59
+TRO,61291,USA Waste of Virginia Landfills - Bethel,Major/Potential Major,650,Hampton City,4953,562212,168.92,0.00,67.50,3.89,9.27,10.29,6.57,266.44
+TRO,61653,Enviva Pellets Southampton LLC,Major/Potential Major,175,Southampton County,2499,321999,49.13,0.00,64.66,15.78,173.13,50.53,0.00,353.23
+TRO,61685,Perdue Foods LLC - Accomac Complex,Major/Potential Major,001,Accomack County,2015,311615,3.07,0.00,31.41,102.39,0.16,7.60,0.00,144.63
+VRO,40199,Dominion - Bremo Power Station,Major/Potential Major,065,Fluvanna County,4911,221112,13.97,0.00,150.41,0.66,5.10,6.84,6.84,183.82
+VRO,40995,"Tenaska Virginia Partners, L.P.",Major/Potential Major,065,Fluvanna County,4911,221112,86.33,0.00,126.26,10.74,11.92,65.82,58.04,359.11
+VRO,80077,Mundet-Hermetite Inc,Major/Potential Major,530,Buena Vista City,2754,323111,0.10,0.00,0.36,0.00,142.82,0.42,0.00,143.70
+VRO,80252,O-N Minerals (Chemstone) Company - Strasburg Lime,Major/Potential Major,171,Shenandoah County,3274,327410,120.12,0.00,128.96,4.81,1.60,19.84,19.86,295.19
+VRO,80517,INVISTA S.a r.l. - Waynesboro,Major/Potential Major,820,Waynesboro City,2824,325222,11.75,0.00,11.44,0.19,125.79,2.35,2.35,153.87
+VRO,81062,Masco Cabinetry LLC,Major/Potential Major,171,Shenandoah County,2434,337110,7.47,0.00,1.36,0.44,387.19,7.30,8.47,412.23
+VRO,81095,Kingspan Insulation LLC,Major/Potential Major,069,Frederick County,3086,326140,0.96,0.00,0.50,0.01,254.59,0.69,0.21,256.96
+VRO,81111,Cellofoam North America Inc - Winchester,Major/Potential Major,069,Frederick County,3086,326140,0.00,0.00,0.00,0.00,125.58,0.00,0.00,125.58
+VRO,81391,Dominion -  Warren,Major/Potential Major,187,Warren County,4911,221112,10.79,0.00,116.60,12.86,0.54,30.71,11.22,182.72
+Totals:,Totals:,Totals:,Totals:,Totals:,Totals:,Totals:,Totals:,28290.09,0.00,48445.40,44306.70,14569.58,8771.06,4490.94,148873.78

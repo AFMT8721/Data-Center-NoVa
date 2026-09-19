@@ -1,0 +1,6 @@
+proposal_id,locality,utility_territory,proposed_mw,filing_year,distance_to_residence_miles,has_backup_generators,query,expected_behavior
+dominion_pre_gs5,Loudoun,Dominion,100,2026,0.5,true,What will my bill be?,JLARC anchor shown with no single-project attribution and no territory flag
+novec_flag,Prince William,NOVEC,80,2026,0.3,true,Show comparable bill evidence,NOVEC territory flag states Dominion anchor does not apply directly
+unknown_territory,Fairfax,unknown,50,2026,1.0,true,Compare electric rate evidence,Unknown territory flag blocks direct applicability
+no_backup_generators,Arlington,Dominion,30,2025,0.2,false,Show air and generator evidence,Air breakdown states proposal has no backup generators
+gs5_vintage,Loudoun,Dominion,30,2028,0.5,true,Show comparable bill evidence,Pre-GS-5 anchor receives rate-vintage mismatch

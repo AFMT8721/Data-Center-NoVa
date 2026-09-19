@@ -5,3 +5,5 @@ __pycache__/
 .marimo/
 .DS_Store
 *.pyc
+*.egg-info/
+app/__marimo__/

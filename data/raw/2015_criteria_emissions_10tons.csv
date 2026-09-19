@@ -1,0 +1,594 @@
+﻿Region,Reg #,Facility Name,Classification,FIPS,County,SIC,NAICS,CO Emissions in Tons,NH3 Emissions in Tons,NO2 Emissions in Tons,PM 10 Emissions in Tons,PM 2.5 Emissions in Tons,SO2 Emissions in Tons,VOC Emissions in Tons,Facility Total
+BRRO,20123,Yokohama Tire Manufacturing Virginia LLC,Major/Potential Major,775,Salem City,3011,326211,10.05,0.00,6.31,0.20,61.07,30.09,30.08,137.80
+BRRO,20124,Virginia Tech,Major/Potential Major,121,Montgomery County,8221,611310,115.36,0.00,141.11,269.90,1.98,3.55,2.43,534.33
+BRRO,20131,RES dba Steel Dynamics Roanoke Bar Division,Major/Potential Major,770,Roanoke City,3312,331110,500.30,0.00,133.41,63.22,7.52,81.86,80.96,867.27
+BRRO,20225,Lhoist North America - Kimballton Plant,Major/Potential Major,071,Giles County,3274,327410,6274.68,0.00,1476.68,6118.32,12.96,143.02,135.40,14161.06
+BRRO,20232,Roanoke Cement Company,Major/Potential Major,023,Botetourt County,3241,327310,1389.83,0.00,1966.50,2299.52,64.13,178.25,81.49,5979.74
+BRRO,20304,Celanese Acetate LLC,Major/Potential Major,071,Giles County,2823,325220,357.70,0.00,576.84,845.07,587.12,101.87,86.66,2555.25
+BRRO,20328,WestRock Virginia Corporation - Covington,Major/Potential Major,580,Covington City,2611,322121,1241.47,0.00,3108.93,6229.65,1013.80,640.28,296.21,12530.34
+BRRO,20329,Ingevity Virginia Corporation,Major/Potential Major,580,Covington City,2819,325998,101.42,0.00,102.22,0.09,68.63,26.07,26.07,324.50
+BRRO,20338,New Millennium Building Systems,Major/Potential Major,161,Roanoke County,3441,332312,0.14,0.00,0.71,0.00,27.98,1.14,1.14,31.11
+BRRO,20447,"General Shale Brick, Inc.",Major/Potential Major,023,Botetourt County,3251,327120,39.50,0.00,25.18,46.41,1.19,11.18,11.18,134.65
+BRRO,20460,American Electric Power Glen Lyn,True Minor,071,Giles County,4911,221112,7.82,0.00,168.45,469.87,0.88,8.04,2.64,657.70
+BRRO,20469,Akzo Nobel Coatings Inc - Roanoke,Synthetic Minor,770,Roanoke City,2851,325510,0.03,0.00,0.04,0.00,54.55,3.16,3.16,60.95
+BRRO,20523,Frank Chervan Incorporated - 20523,Major/Potential Major,770,Roanoke City,2512,337121,3.57,0.00,2.92,0.15,32.27,3.32,2.70,44.93
+BRRO,20543,RADVA Corporation - Radford Plant,Major/Potential Major,750,Radford City,3086,326140,3.43,0.00,4.09,0.02,104.86,0.31,0.31,113.02
+BRRO,20544,Koppers Incorporated Salem Plant,Synthetic Minor,161,Roanoke County,2491,321114,12.05,0.00,8.77,1.26,16.00,14.74,8.77,61.58
+BRRO,20573,Corning Inc Blacksburg,Synthetic Minor,121,Montgomery County,3297,327120,24.98,0.00,42.90,3.26,34.67,21.75,21.76,149.32
+BRRO,20615,Carilion Roanoke Memorial Hospital,Synthetic Minor,770,Roanoke City,8062,622110,6.98,0.00,10.62,0.25,0.48,0.65,0.65,19.62
+BRRO,20656,US Army - RAAP,Major/Potential Major,121,Montgomery County,2892,325920,44.90,0.00,1215.21,3165.59,1307.41,87.62,24.70,5845.44
+BRRO,20736,Rowe Fine Furniture Inc - Salem,Synthetic Minor,775,Salem City,2426,337215,41.46,0.00,4.57,0.23,4.27,45.67,45.67,141.87
+BRRO,20765,Volvo Trucks - New River Valley Plant,Major/Potential Major,155,Pulaski County,3711,336120,15.94,0.00,19.31,0.11,413.52,23.91,23.90,496.69
+BRRO,20797,Sisson and Ryan Quarry,Synthetic Minor,121,Montgomery County,1422,212312,9.34,0.00,56.94,9.67,0.97,3.01,3.01,82.93
+BRRO,20991,Kinder Morgan Southeast - Roanoke #1,Synthetic Minor,770,Roanoke City,4226,493190,0.00,0.00,0.00,0.00,35.20,0.00,0.00,35.20
+BRRO,20995,Magellan Terminals Holdings LP - Roanoke Terminal,Synthetic Minor,161,Roanoke County,5171,424710,6.81,0.00,2.72,0.00,39.62,0.00,0.00,49.15
+BRRO,21239,Chocklett Press,True Minor,770,Roanoke City,2752,323111,0.12,0.00,0.20,0.00,15.65,12.47,12.47,40.92
+BRRO,21241,Fontaine Modification Co,Synthetic Minor,155,Pulaski County,3713,336211,3.43,0.00,4.09,0.02,31.61,0.34,0.34,39.84
+BRRO,21258,New River Energetics,Synthetic Minor,121,Montgomery County,2892,325920,0.00,0.00,0.00,0.00,83.30,6.62,6.62,96.54
+BRRO,21265,Metalsa Roanoke Inc,Synthetic Minor,023,Botetourt County,3714,336390,8.44,0.00,10.05,0.06,0.55,3.46,3.46,26.02
+BRRO,21270,RR  Donnelley & Sons,True Minor,161,Roanoke County,2752,323111,1.89,0.00,2.25,0.01,11.38,1.99,1.99,19.53
+BRRO,21320,Wholesome Harvest Baking LLC,Synthetic Minor,770,Roanoke City,2051,311812,3.93,0.00,4.68,0.03,48.66,0.36,0.36,58.00
+BRRO,21359,Rowe Fine Furniture Inc - Elliston,Synthetic Minor,121,Montgomery County,2512,337121,0.22,0.00,0.27,0.00,13.39,0.01,0.01,13.90
+BRRO,21360,Thermasteel Corporation,Synthetic Minor,121,Montgomery County,3089,326199,0.17,0.00,0.20,0.00,42.51,0.02,0.02,42.92
+BRRO,21374,Excel Homes of Virginia - Plant 2,Synthetic Minor,067,Franklin County,2452,321992,0.00,0.00,0.00,0.00,12.90,1.28,1.28,15.45
+BRRO,21387,"Altec Industries, Inc.",Synthetic Minor,023,Botetourt County,3713,336211,1.85,0.00,2.20,0.01,17.49,2.43,2.42,26.39
+BRRO,21390,Custom Wood Products LLC  Aerial Way Plt,Major/Potential Major,770,Roanoke City,2434,337110,2.00,0.00,2.38,0.01,12.73,5.66,5.66,28.45
+BRRO,21407,Air-Lee Cleaners - 21407,True Minor,770,Roanoke City,7216,812320,0.00,0.00,0.00,0.00,14.56,0.00,0.00,14.56
+BRRO,21446,James Hardie Building Products,Synthetic Minor,155,Pulaski County,3272,327390,17.14,0.00,20.44,0.12,36.85,21.70,21.70,117.96
+BRRO,21450,FreightCar America Inc,Synthetic Minor,770,Roanoke City,3743,336510,0.00,0.00,0.00,0.00,55.83,11.80,11.80,79.43
+BRRO,21451,Mennel Milling Company of Virginia,Synthetic Minor,161,Roanoke County,2041,311211,0.00,0.00,0.00,0.00,0.00,19.63,19.63,39.26
+BRRO,21458,Ten Oaks LLC,Synthetic Minor,141,Patrick County,2426,321113,25.63,0.00,20.94,1.07,2.64,11.31,11.10,72.69
+BRRO,21504,RTI Martinsville Inc,Synthetic Minor,089,Henry County,3356,331491,7.79,0.00,38.76,0.06,1.25,2.42,2.42,52.68
+BRRO,21508,JTI Leaf Services (US) LLC,Synthetic Minor,590,Danville City,2141,312230,1.52,0.00,1.81,0.01,30.00,12.74,10.49,56.58
+BRRO,21512,Martinsville City Landfill,True Minor,089,Henry County,4953,562212,14.64,0.00,2.93,0.29,0.98,0.74,0.74,20.31
+BRRO,21526,NOVEC Energy Production Halifax County Biomass,Major/Potential Major,083,Halifax County,4911,221117,168.91,0.00,133.51,0.54,27.77,47.22,0.00,377.95
+BRRO,21527,Microsoft Corporation - East Coast Data Center,Major/Potential Major,117,Mecklenburg County,7374,518210,9.18,0.00,23.89,0.40,1.51,1.58,1.58,38.13
+BRRO,21534,Franklin County - Sanitary Landfill,True Minor,067,Franklin County,4953,562212,2.12,0.00,0.00,0.00,8.35,11.40,1.14,23.01
+BRRO,21548,INGENCO - New River,Major/Potential Major,155,Pulaski County,4931,221117,70.60,0.00,59.50,0.65,8.32,7.40,7.40,153.86
+BRRO,21553,Colony Construction Asphalt LLC,Synthetic Minor,135,Nottoway County,2951,324121,7.78,0.00,3.29,11.80,1.92,3.39,0.00,28.18
+BRRO,30072,Sam Moore Furniture LLC,Synthetic Minor,019,Bedford County,2512,337121,3.30,0.00,3.12,0.89,18.59,5.74,5.35,36.99
+BRRO,30103,Magellan Terminal Holdings LP Montvale,Synthetic Minor,019,Bedford County,5171,424710,6.26,0.00,2.50,0.00,20.43,0.00,0.00,29.19
+BRRO,30105,Davis Frost Inc,Synthetic Minor,680,Lynchburg City,2851,325510,0.00,0.00,0.00,0.00,16.70,13.80,0.00,30.50
+BRRO,30106,Goodyear Tire and Rubber Company Danville,Major/Potential Major,590,Danville City,3011,326211,55.08,0.00,178.34,14.40,435.89,40.34,7.70,731.75
+BRRO,30120,Columbia Forest Products,Synthetic Minor,143,Pittsylvania County,2435,321211,15.60,0.00,12.74,0.12,5.41,6.01,5.95,45.84
+BRRO,30124,LSC Communications Inc,Major/Potential Major,680,Lynchburg City,2754,323111,9.29,0.00,11.26,1.93,14.51,0.85,0.84,38.66
+BRRO,30126,Abbott Laboratories Abbott Nutrition Div,Synthetic Minor,031,Campbell County,2023,311514,12.41,0.00,14.51,0.22,2.66,2.26,1.91,33.95
+BRRO,30133,TransMontaigne Inc Montvale Piedmont Terminal,Synthetic Minor,019,Bedford County,5171,424710,3.87,0.00,1.55,0.00,30.88,0.00,0.00,36.29
+BRRO,30172,Parker Hannifin Corp - Powertrain Division,Synthetic Minor,680,Lynchburg City,3069,326299,0.00,0.00,0.00,0.00,11.60,0.00,0.00,11.60
+BRRO,30188,WestRock Converting Company,Synthetic Minor,680,Lynchburg City,2679,322211,23.52,0.00,27.99,0.58,9.60,2.15,2.15,66.00
+BRRO,30228,Motiva Enterprise LLC - Montvale Terminal,Synthetic Minor,019,Bedford County,5171,424710,2.06,0.00,0.82,0.00,20.89,0.23,0.23,24.24
+BRRO,30229,Blue Ridge Solvents and Coatings Incorporated,Synthetic Minor,089,Henry County,2851,325510,0.03,0.00,0.17,0.20,10.64,0.02,0.01,11.07
+BRRO,30230,Tyson Foods Inc Burkeville,Synthetic Minor,135,Nottoway County,2048,311119,0.48,0.00,2.29,6.77,0.02,44.36,0.15,54.06
+BRRO,30232,Buckeye Terminals LLC - Montvale Terminal,Synthetic Minor,019,Bedford County,5171,424710,0.00,0.00,0.00,0.00,23.67,0.00,0.00,23.67
+BRRO,30239,Delta Star Incorporated,Synthetic Minor,680,Lynchburg City,3612,335311,0.50,0.00,0.59,0.00,14.76,1.58,0.00,17.44
+BRRO,30242,DanChem Technologies Inc,Synthetic Minor,590,Danville City,2821,325211,3.30,0.00,5.04,0.03,60.09,2.03,2.01,72.51
+BRRO,30253,Pine Products Incorporated,Synthetic Minor,089,Henry County,2421,321113,75.20,0.00,27.57,3.13,69.82,39.84,29.82,245.39
+BRRO,30255,Virginia Mirror Company Inc,Synthetic Minor,690,Martinsville City,3231,327215,0.00,0.00,0.00,0.00,59.98,3.27,3.27,66.51
+BRRO,30260,BWXT Nuclear Operations Group Inc,Major/Potential Major,031,Campbell County,3443,332410,3.46,0.00,47.48,0.36,18.04,0.36,0.23,69.93
+BRRO,30268,Capps Shoe Co,Synthetic Minor,143,Pittsylvania County,3149,316210,0.00,0.00,0.00,0.00,13.39,0.92,0.00,14.31
+BRRO,30282,Ferrum College,Synthetic Minor,067,Franklin County,8221,611310,14.33,0.00,33.47,72.84,0.84,4.07,3.82,129.37
+BRRO,30284,BFI Bassett,Major/Potential Major,089,Henry County,2511,337122,0.00,0.00,0.00,0.00,26.70,0.11,0.11,26.92
+BRRO,30294,CPFilms Inc.,Major/Potential Major,089,Henry County,3083,326130,8.73,0.00,10.39,0.06,284.59,0.79,0.79,305.35
+BRRO,30326,ABB Inc,Synthetic Minor,083,Halifax County,3612,335311,4.49,0.00,5.35,0.03,51.55,2.56,0.00,63.99
+BRRO,30328,Hanesbrands Inc,Synthetic Minor,141,Patrick County,2241,313220,5.44,0.00,9.44,0.03,27.42,3.79,5.27,51.40
+BRRO,30330,Blue Ridge Fiberboard Inc,Synthetic Minor,590,Danville City,2493,321219,14.81,0.00,15.68,0.09,50.85,58.99,58.99,199.42
+BRRO,30359,Butler Woodcrafters Inc,Synthetic Minor,117,Mecklenburg County,2421,321113,0.00,0.00,0.00,0.00,18.98,0.17,0.17,19.31
+BRRO,30360,Longwood University,Synthetic Minor,147,Prince Edward County,8221,611310,57.51,0.00,47.82,6.20,3.73,27.74,27.71,170.72
+BRRO,30362,Kyanite Mining Corp Mullite Plant,Synthetic Minor,029,Buckingham County,1459,212325,1.21,0.00,10.98,12.35,4.51,14.28,1.43,44.75
+BRRO,30380,BGF Industries Inc,Synthetic Minor,031,Campbell County,2262,313310,8.15,0.00,9.88,0.54,15.91,0.79,0.79,36.07
+BRRO,30389,GP Big Island LLC,Major/Potential Major,019,Bedford County,2631,322130,606.04,0.00,437.90,39.35,330.14,146.50,99.63,1659.55
+BRRO,30397,Griffin Pipe Products Co LLC,Major/Potential Major,680,Lynchburg City,3321,331511,204.72,0.00,56.87,43.47,253.30,61.96,26.94,647.25
+BRRO,30415,Colonial Pipeline Company Mitchell Junction,Major/Potential Major,049,Cumberland County,4613,486910,0.00,0.00,1.02,0.00,81.40,0.00,0.00,82.42
+BRRO,30444,Unilin Flooring NC LLC,Synthetic Minor,143,Pittsylvania County,2426,321918,0.99,0.00,1.18,0.01,36.64,12.71,12.71,64.23
+BRRO,30451,Piedmont Geriatric Hospital,Synthetic Minor,135,Nottoway County,8062,622110,22.98,0.00,4.25,1.78,2.77,2.35,0.22,34.36
+BRRO,30478,Ronile Inc,Synthetic Minor,067,Franklin County,2262,313310,22.68,0.00,8.44,0.99,21.64,7.56,4.53,65.84
+BRRO,30515,Southern Finishing,Major/Potential Major,690,Martinsville City,2511,337122,7.33,0.00,6.19,1.20,172.60,5.53,3.53,196.38
+BRRO,30536,Southside Community Hospital,Synthetic Minor,147,Prince Edward County,8062,622110,0.57,0.00,4.98,26.86,0.14,0.68,0.37,33.59
+BRRO,30549,Greif Packaging LLC,Major/Potential Major,009,Amherst County,2631,322130,489.85,0.00,427.51,5.17,160.47,32.17,30.01,1145.18
+BRRO,30575,Old Dominion Wood Products,Synthetic Minor,680,Lynchburg City,2499,321999,0.00,0.00,0.00,0.00,13.06,0.24,0.00,13.30
+BRRO,30590,Wheelabrator Abrasives Incorporated,Synthetic Minor,019,Bedford County,3291,332999,58.14,0.00,6.18,0.73,0.01,1.02,1.02,67.10
+BRRO,30593,Times Fiber Communications Inc,Synthetic Minor,143,Pittsylvania County,3357,331491,0.00,0.00,0.00,0.00,31.50,0.00,0.00,31.50
+BRRO,30631,TransMontaigne Montvale Terminal,Synthetic Minor,019,Bedford County,5171,424710,0.84,0.00,0.34,0.00,11.55,0.00,0.00,12.73
+BRRO,30633,Trinity Packaging Corporation,Synthetic Minor,067,Franklin County,2759,323111,0.83,0.00,1.44,0.00,16.31,0.08,0.08,18.73
+BRRO,30666,Charter Of Lynchburg Inc,Synthetic Minor,031,Campbell County,2511,337122,0.80,0.00,0.09,0.00,25.58,1.26,1.26,28.99
+BRRO,30669,Slocum Adhesives Corporation,Synthetic Minor,680,Lynchburg City,2891,325520,0.00,0.00,0.00,0.00,12.00,0.00,0.00,12.00
+BRRO,30677,Kyanite Mining Corporation - Willis,Major/Potential Major,029,Buckingham County,1459,212325,61.31,0.00,21.26,4.82,7.49,23.49,13.55,131.92
+BRRO,30697,BRC Rail Car Service Company Inc,Synthetic Minor,680,Lynchburg City,4789,488210,0.01,0.00,0.04,0.11,16.98,6.93,6.93,31.00
+BRRO,30718,Owens-Brockway Glass Container Inc,Major/Potential Major,143,Pittsylvania County,3221,327213,0.79,0.00,134.50,155.70,5.70,25.07,25.07,346.83
+BRRO,30728,Smyth Companies LLC,True Minor,019,Bedford County,2752,323111,0.07,0.00,0.32,0.37,23.23,0.03,0.02,24.04
+BRRO,30743,Virginia Marble Manufacturers Inc - 30743,Major/Potential Major,111,Lunenburg County,3088,326191,0.00,0.00,0.00,0.00,28.54,2.25,0.00,30.79
+BRRO,30754,Flowers Baking Co Of Lynchburg LLC,Synthetic Minor,680,Lynchburg City,2051,311812,0.00,0.00,0.00,0.00,77.07,0.00,0.00,77.07
+BRRO,30785,Shaw Industries Group Inc,Synthetic Minor,141,Patrick County,2426,321918,38.12,0.00,31.13,1.59,1.08,19.73,19.42,111.07
+BRRO,30794,Aquatic Company,Major/Potential Major,083,Halifax County,3088,326191,0.09,0.00,0.43,0.00,40.98,0.57,0.01,42.08
+BRRO,30823,Intertape Polymer Corporation,Major/Potential Major,143,Pittsylvania County,3081,326113,2.45,0.00,2.91,0.02,40.39,4.78,4.78,55.33
+BRRO,30825,Ferguson Land and Lumber Company,True Minor,067,Franklin County,2421,321912,14.14,0.00,2.40,0.53,4.95,4.67,4.67,31.36
+BRRO,30833,Gerdau MRM - Lynchburg,True Minor,031,Campbell County,5093,423930,2.16,0.00,12.79,0.01,3.16,1.74,1.71,21.57
+BRRO,30845,Norcraft Companies,Major/Potential Major,680,Lynchburg City,2434,337110,0.00,0.00,0.00,0.00,197.87,11.54,0.00,209.41
+BRRO,30848,Presto Products Company,True Minor,083,Halifax County,2673,326111,0.00,0.00,0.00,0.00,20.51,0.00,0.00,20.51
+BRRO,30859,Dominion - Altavista Power Station,Major/Potential Major,031,Campbell County,4911,221112,293.20,0.00,217.50,11.20,2.97,21.85,19.27,566.00
+BRRO,30861,Dominion - Mecklenburg Power Station,Major/Potential Major,117,Mecklenburg County,4911,221112,41.80,0.00,668.10,290.30,4.97,42.57,1.25,1048.98
+BRRO,30864,Transco Gas Pipe Line Corp Station 165,Major/Potential Major,143,Pittsylvania County,4922,486210,69.18,0.00,332.30,0.23,17.06,3.75,3.75,426.26
+BRRO,30866,A C Furniture Co,Synthetic Minor,143,Pittsylvania County,2599,337127,0.00,0.00,0.00,0.00,91.95,1.93,0.00,93.88
+BRRO,30867,Dominion/ODEC - Clover Power Station,Major/Potential Major,083,Halifax County,4911,221112,277.24,0.00,8413.47,1774.12,87.31,875.22,67.05,11494.42
+BRRO,30871,Dominion - Pittsylvania Power Station,Major/Potential Major,143,Pittsylvania County,4911,221117,612.51,0.00,161.50,7.91,18.62,42.76,5.63,848.93
+BRRO,30877,CPFilms Inc - Axton,Major/Potential Major,089,Henry County,3083,326130,0.12,0.00,0.72,0.00,67.30,0.04,0.04,68.22
+BRRO,30889,Glad Manufacturing Company,Synthetic Minor,009,Amherst County,2673,326111,0.00,0.00,0.00,0.00,12.27,8.01,0.00,20.28
+BRRO,30893,Rockwood Specialties LLC dba Serenity Cabinets and Millwork,Synthetic Minor,089,Henry County,2511,337122,0.00,0.00,0.00,0.00,15.47,0.72,0.72,16.90
+BRRO,30903,Georgia-Pacific Wood Products LLC,Major/Potential Major,031,Campbell County,2493,321219,183.68,0.00,182.74,19.97,116.87,132.11,120.84,756.20
+BRRO,30905,"Huber Engineered Woods, LLC",Major/Potential Major,083,Halifax County,2493,321219,120.77,0.00,132.37,14.96,122.27,104.20,104.20,598.78
+BRRO,30914,Virginia Marble Manufacturers Inc - 30914,Major/Potential Major,111,Lunenburg County,3088,326191,0.00,0.00,0.00,0.00,38.25,3.46,0.00,41.71
+BRRO,30926,American Buildings Company,Synthetic Minor,117,Mecklenburg County,3448,332311,0.00,0.00,0.00,0.00,31.50,0.38,0.00,31.88
+BRRO,30970,Atlas Roofing Corporation,Synthetic Minor,089,Henry County,3086,326140,1.47,0.00,1.75,0.01,80.19,0.13,0.13,83.69
+BRRO,30972,CPFilms Inc - Martinsville,Synthetic Minor,089,Henry County,3081,326113,2.99,0.00,3.89,0.02,16.15,0.22,0.27,23.55
+BRRO,30974,Frito Lay Incorporated,Synthetic Minor,680,Lynchburg City,2096,311919,20.15,0.00,18.64,0.18,2.30,20.96,20.96,83.20
+BRRO,30996,Morgan Lumber Company,Major/Potential Major,037,Charlotte County,2421,321113,56.59,0.00,20.75,2.36,113.79,0.00,0.00,193.48
+BRRO,31012,Barr Laboratories Inc,Synthetic Minor,019,Bedford County,2834,325412,5.93,0.00,7.75,0.09,38.15,0.59,0.59,53.11
+BRRO,31013,"Bassett Furniture Industries, Inc., Table Plant 11",Major/Potential Major,089,Henry County,2511,337122,0.38,0.00,0.45,0.00,147.02,0.71,0.71,149.27
+BRRO,31024,Trout River Lumber,Synthetic Minor,135,Nottoway County,2426,321113,0.00,0.00,13.41,0.00,0.99,10.62,5.20,30.22
+BRRO,31039,ArborTech Forest Products Inc,Major/Potential Major,135,Nottoway County,2421,321113,54.92,0.00,54.43,4.32,145.37,32.95,15.05,307.03
+BRRO,32001,Hanwha Azdel Inc,Synthetic Minor,680,Lynchburg City,3083,326130,4.95,0.00,6.04,0.06,53.90,35.00,0.18,100.13
+BRRO,32004,Dominion - Bear Garden CT Station,Major/Potential Major,029,Buckingham County,4911,221112,18.90,0.00,100.88,7.51,2.66,20.95,20.95,171.85
+BRRO,32035,Elkay Wood Product Company,Major/Potential Major,143,Pittsylvania County,2434,337110,0.58,0.00,1.32,0.05,146.58,5.31,0.05,153.88
+BRRO,32048,Ontario Hardwood Co Inc Dry Kiln,True Minor,037,Charlotte County,2421,321113,14.41,0.00,5.34,0.60,2.35,7.37,0.00,30.06
+BRRO,32077,Lignetics Incorporated,True Minor,111,Lunenburg County,2499,321999,9.29,0.00,14.17,1.20,13.71,54.75,0.00,93.12
+BRRO,32084,Sanfacon Virginia Incorporated,Synthetic Minor,031,Campbell County,2676,322291,0.00,0.00,0.00,0.00,26.05,0.00,0.00,26.05
+NRO,40075,Bingham and Taylor Corp - Div of Virginia Ind,Major/Potential Major,047,Culpeper County,3321,331511,393.24,0.00,1.65,3.36,36.75,11.63,8.27,454.89
+NRO,40087,"Ardent Mills, LLC",Synthetic Minor,047,Culpeper County,2041,311211,0.00,0.00,0.00,0.00,0.00,39.33,0.00,39.33
+NRO,40307,"Naval Support Facility, Dahlgren",Synthetic Minor,099,King George County,9711,928110,6.21,0.00,27.28,0.18,1.07,0.87,0.75,36.36
+NRO,40368,FBI Academy,Synthetic Minor,179,Stafford County,9711,928110,13.45,0.00,34.27,0.17,1.72,1.39,0.77,51.76
+NRO,40369,Rochester Wire and Cable LLC,Synthetic Minor,047,Culpeper County,3357,335929,0.37,0.00,5.69,0.01,12.21,0.05,0.03,18.36
+NRO,40513,American Woodmark Orange Dimension Plant,Synthetic Minor,137,Orange County,2434,337110,18.03,0.00,13.84,2.23,11.12,36.24,0.00,81.47
+NRO,40554,OFIC North America Incorporated,Synthetic Minor,177,Spotsylvania County,2952,324122,0.87,0.00,2.17,0.20,19.07,0.06,0.00,22.38
+NRO,40670,W T Jones & Son Inc,Synthetic Minor,033,Caroline County,2421,321113,11.82,0.00,9.65,0.49,20.82,7.09,0.00,49.88
+NRO,40690,Printpack Inc,True Minor,177,Spotsylvania County,2671,326112,1.97,0.00,2.34,0.01,25.64,0.18,0.00,30.14
+NRO,40696,Cellofoam North America Inc,Major/Potential Major,179,Stafford County,3086,326150,0.42,0.00,0.50,0.00,41.68,0.04,0.00,42.64
+NRO,40726,Dominion - North Anna Power Station,Synthetic Minor,109,Louisa County,4911,221113,2.84,0.00,12.31,0.00,0.36,0.20,0.18,15.91
+NRO,40728,MASCO Cabinetry LLC - Culpeper,Major/Potential Major,047,Culpeper County,2434,337110,0.72,0.00,0.85,0.06,124.54,1.04,1.04,128.25
+NRO,40776,Virginia Paving Company Stafford,Synthetic Minor,179,Stafford County,2951,324121,0.00,0.00,6.89,24.74,0.07,1.22,0.00,32.92
+NRO,40779,"Cellofoam North America, Inc. - Fredericksburg, VA",Major/Potential Major,177,Spotsylvania County,3086,326140,0.63,0.00,0.75,0.00,41.51,0.06,0.06,43.01
+NRO,40790,Columbia Gas Transmission Corporation,Synthetic Minor,109,Louisa County,4922,486210,10.36,0.00,5.94,0.01,2.23,0.10,0.00,18.62
+NRO,40808,Dominion - Gordonsville Power Station,Major/Potential Major,109,Louisa County,4911,221112,19.40,0.00,144.81,9.50,63.22,31.55,34.04,302.52
+NRO,40809,Birchwood Power Facility,Major/Potential Major,099,King George County,4931,221112,138.29,0.00,270.30,265.40,1.89,47.02,40.98,763.87
+NRO,40811,A Smith Bowman Distillery,True Minor,177,Spotsylvania County,2085,312140,0.00,0.00,0.00,0.00,21.76,0.00,0.00,21.76
+NRO,40821,CHIPS Inc,Synthetic Minor,109,Louisa County,2421,321113,77.58,0.00,22.49,2.24,27.72,55.23,0.00,185.26
+NRO,40824,Greenhost Incorporated,Synthetic Minor,099,King George County,0182,111419,7.52,0.00,27.37,0.00,0.67,0.65,0.00,36.20
+NRO,40902,Warrenton Training Center-Station B,Major/Potential Major,061,Fauquier County,9711,928110,2.87,0.00,20.47,0.20,1.33,0.71,0.71,26.29
+NRO,40903,King George Landfill Inc,Major/Potential Major,099,King George County,4953,562212,121.35,0.00,84.55,45.51,37.45,28.87,26.50,344.24
+NRO,40923,Caroline County Landfill,True Minor,033,Caroline County,4953,562211,10.61,0.00,0.57,0.00,0.00,0.00,0.00,11.18
+NRO,40946,Rappahannock Regional Solid Waste Management Board,Synthetic Minor,179,Stafford County,4953,562212,13.14,0.00,2.92,0.54,3.00,0.64,0.63,20.86
+NRO,40947,Harkness Hall Limited,Synthetic Minor,630,Fredericksburg City,3861,333316,0.00,0.00,0.00,0.00,26.98,0.00,0.00,26.98
+NRO,40960,Dominion - Ladysmith CT Station,Major/Potential Major,033,Caroline County,4911,221112,26.21,0.00,93.15,4.00,4.49,15.50,15.50,158.86
+NRO,40961,Dominion - Remington CT Station,Major/Potential Major,061,Fauquier County,4911,221112,9.48,0.00,162.43,4.91,9.60,30.57,30.57,247.56
+NRO,40989,Old Dominion Electric Cooperative - Louisa,Major/Potential Major,109,Louisa County,4911,221112,58.75,0.00,72.75,1.92,5.64,25.82,25.82,190.70
+NRO,40996,Old Dominion Electric Cooperative - Marsh Run,Major/Potential Major,061,Fauquier County,4911,221112,80.27,0.00,124.54,2.84,7.99,40.82,40.82,297.27
+NRO,41014,Zamma Corporation,Synthetic Minor,137,Orange County,2499,321999,19.70,0.00,16.18,0.82,10.16,1.21,0.00,48.06
+NRO,41030,Superior Paving Corporation - Powell Lane,Synthetic Minor,179,Stafford County,2951,324121,14.00,0.00,2.80,0.37,3.45,0.74,0.00,21.35
+NRO,41050,Ameresco Stafford LLC - LFGTE Facility,True Minor,179,Stafford County,4911,221112,7.83,0.00,12.72,1.41,1.41,2.18,0.00,25.55
+NRO,41055,JK Enterprise Lanscape Supply,Synthetic Minor,047,Culpeper County,0782,561730,3.87,0.00,16.98,0.41,0.62,1.76,0.00,23.64
+NRO,41057,Trae Fuels LTD,Major/Potential Major,109,Louisa County,2411,113310,12.55,0.00,27.50,2.25,72.30,108.66,0.00,223.26
+NRO,70003,MWAA - Washington Dulles International Airport,Synthetic Minor,107,Loudoun County,4581,488119,11.13,0.00,7.87,0.21,0.99,1.53,1.53,23.27
+NRO,70010,Superior Paving Corp - Leesburg Plant,Synthetic Minor,107,Loudoun County,2951,324121,38.37,0.00,7.67,1.00,9.44,6.79,0.00,63.28
+NRO,70012,Virginia Paving Company - Chantilly,Synthetic Minor,107,Loudoun County,2951,324121,18.36,0.00,3.67,0.48,4.52,3.25,0.41,30.69
+NRO,70013,Virginia Paving Company - Occoquan Plant,Synthetic Minor,059,Fairfax County,2951,324121,12.44,0.00,2.89,1.30,3.06,2.20,0.00,21.88
+NRO,70014,Superior Paving - Manassas Plant,Synthetic Minor,153,Prince William County,2951,324121,14.03,0.00,2.85,0.37,3.44,0.42,0.00,21.10
+NRO,70021,Inova Fairfax Hospital,Synthetic Minor,059,Fairfax County,8062,622110,32.39,0.00,9.06,0.64,0.90,2.18,0.00,45.16
+NRO,70030,Pentagon Reservation,Synthetic Minor,013,Arlington County,9711,928110,14.34,0.00,17.66,3.88,1.12,2.52,0.00,39.53
+NRO,70087,Kinder Morgan Newington Terminal #1,Major/Potential Major,059,Fairfax County,4226,493190,18.26,0.00,4.01,0.00,64.53,0.00,0.00,86.80
+NRO,70106,Holtzman Oil Corp,True Minor,107,Loudoun County,5171,424710,0.00,0.00,0.00,0.00,10.84,0.00,0.00,10.84
+NRO,70143,Luck Stone - Leesburg Plant,True Minor,107,Loudoun County,1422,212312,0.00,0.00,0.00,0.00,0.00,10.22,0.00,10.22
+NRO,70220,"Buckeye Terminals, LLC - Fairfax Terminal",Major/Potential Major,600,Fairfax City,5171,424710,0.00,0.00,0.00,0.00,15.15,0.00,0.00,15.15
+NRO,70224,CITGO Terminal,Major/Potential Major,600,Fairfax City,5171,424710,3.99,0.00,1.59,0.00,29.80,0.00,0.00,35.37
+NRO,70225,Dominion - Possum Point Power Station,Major/Potential Major,153,Prince William County,4911,221112,116.57,0.00,767.02,1750.53,10.15,64.81,45.73,2754.81
+NRO,70226,Virginia Hospital Center - Arlington,Synthetic Minor,013,Arlington County,8062,622110,6.51,0.00,11.95,0.04,0.49,0.65,0.00,19.64
+NRO,70234,Kinder Morgan Southeast Terminals LLC-Newington 2,Major/Potential Major,059,Fairfax County,5171,424710,0.00,0.00,0.00,0.00,53.60,0.00,0.00,53.60
+NRO,70235,Sunoco Partners Marketing & Terminals LP Manassas,Major/Potential Major,153,Prince William County,5171,424710,0.07,0.00,0.03,0.00,45.03,0.00,0.00,45.13
+NRO,70244,Glen Gery Corporation - Capitol Plant,Major/Potential Major,683,Manassas City,3251,327120,10.02,0.00,3.68,0.66,0.16,4.78,0.96,20.25
+NRO,70248,Motiva Enterprises LLC,Major/Potential Major,600,Fairfax City,5171,424710,0.00,0.00,0.00,0.00,35.70,0.00,0.00,35.70
+NRO,70267,US Marine Corps - Quantico,Major/Potential Major,153,Prince William County,9711,928110,12.46,0.00,33.36,9.55,8.00,1.97,1.68,67.02
+NRO,70306,TransMontaigne Product Services Inc - Fairfax,Major/Potential Major,600,Fairfax City,5171,424710,3.21,0.00,1.29,0.00,39.59,0.00,0.00,44.09
+NRO,70550,US Army - Fort Belvoir,Major/Potential Major,059,Fairfax County,9711,928110,17.20,0.00,30.55,0.23,1.91,1.58,0.93,52.40
+NRO,70579,Virginia Paving Company Alexandria Plant,Synthetic Minor,510,Alexandria City,2951,324121,17.50,0.00,5.36,0.72,6.32,7.65,7.59,45.15
+NRO,70691,George Mason University - Fairfax Campus,Synthetic Minor,059,Fairfax County,8221,611310,12.68,0.00,15.85,0.37,1.02,1.36,0.00,31.28
+NRO,70714,Noman M Cole Jr Pollution Control Plant,Major/Potential Major,059,Fairfax County,4952,221320,250.04,0.00,44.48,1.84,1.53,6.28,6.15,310.33
+NRO,71734,Aircraft Services International Inc.,Synthetic Minor,107,Loudoun County,5172,424720,0.00,0.00,0.00,0.00,12.94,0.00,0.00,12.94
+NRO,71751,H L Mooney Water Reclamation Facility,Synthetic Minor,153,Prince William County,4952,221320,5.55,0.00,14.36,0.64,4.03,0.08,0.00,24.65
+NRO,71757,Bush Center for Intelligence (CIA),Synthetic Minor,059,Fairfax County,9711,928110,13.94,0.00,14.89,1.86,1.11,1.34,0.66,33.80
+NRO,71770,Upper Occoquan Service Authority,Synthetic Minor,059,Fairfax County,4952,221320,33.65,0.00,29.48,1.31,11.12,14.47,0.00,90.04
+NRO,71775,Superior Paving Corp - Centreville Plt,Synthetic Minor,059,Fairfax County,2951,324121,31.15,0.00,6.23,0.81,7.67,5.51,0.00,51.37
+NRO,71804,Science Applications International Corp.,True Minor,059,Fairfax County,7374,518210,0.31,0.00,18.98,0.16,0.03,0.03,0.00,19.51
+NRO,71871,QG Printing II Corp.,Synthetic Minor,153,Prince William County,2752,323111,0.25,0.00,0.30,0.00,16.88,0.02,0.00,17.46
+NRO,71895,"Covanta Alexandria/Arlington, Inc.",Major/Potential Major,510,Alexandria City,4953,562213,56.80,0.00,470.11,3.75,1.25,1.02,10.06,543.00
+NRO,71920,"Covanta Fairfax, Inc.",Major/Potential Major,059,Fairfax County,4953,562213,21.11,0.00,1647.88,121.62,6.06,14.06,0.13,1810.85
+NRO,71924,Virginia Paving Company - Sterling,Synthetic Minor,107,Loudoun County,2951,324121,25.33,0.00,5.07,0.66,6.24,4.48,0.00,41.78
+NRO,71926,Branscome Paving Company,Synthetic Minor,153,Prince William County,2951,324121,23.51,0.00,9.99,10.49,12.30,4.26,0.00,60.54
+NRO,71958,Transcontinental Gas Pipeline-Station 185,Major/Potential Major,153,Prince William County,4922,486210,1.32,0.00,22.31,0.13,2.18,0.54,0.54,27.02
+NRO,71961,Michigan Cogeneration Systems Inc,Major/Potential Major,059,Fairfax County,4911,221112,123.40,0.00,62.20,3.07,7.56,8.96,8.96,214.15
+NRO,71977,City of Manassas/VMEA,Major/Potential Major,683,Manassas City,4911,221112,2.63,0.00,12.15,2.01,0.37,0.26,0.26,17.68
+NRO,71978,Dominion - Leesburg Compressor Station,Major/Potential Major,107,Loudoun County,4922,486210,16.91,0.00,35.17,0.02,10.70,1.26,1.26,65.32
+NRO,72265,Loudoun Compressor Station,Major/Potential Major,107,Loudoun County,4922,486210,20.95,0.00,15.80,0.07,6.32,0.47,0.47,44.08
+NRO,72299,Micron Technology Incorporated,Synthetic Minor,683,Manassas City,3674,334413,15.47,0.00,9.77,1.06,42.62,10.44,10.44,89.80
+NRO,72340,Prince William County Sanitary Landfill,Major/Potential Major,153,Prince William County,4953,562212,240.73,0.00,53.10,39.58,12.14,17.06,17.06,379.67
+NRO,72348,"Loudoun County Dept. of General Services, DSW",Synthetic Minor,107,Loudoun County,4953,562212,50.58,0.00,2.70,1.02,2.25,1.15,0.00,57.70
+NRO,72361,"Loudoun Co Asphalt Co., LLC",Synthetic Minor,107,Loudoun County,2951,324121,16.47,0.00,3.29,0.43,4.05,2.91,0.00,27.16
+NRO,72367,MCI-Verizon,Synthetic Minor,107,Loudoun County,4813,517110,2.71,0.00,14.87,0.02,0.34,0.39,0.39,18.72
+NRO,73233,Equinix LLC,Synthetic Minor,107,Loudoun County,7376,541513,1.74,0.00,13.62,0.02,0.48,0.16,0.00,16.03
+NRO,73333,Liberty Crossing 1,Synthetic Minor,059,Fairfax County,9199,921190,1.25,0.00,11.92,1.43,0.17,0.14,0.00,14.91
+NRO,73370,DuPont Fabros Tech - Ashburn Campus,Major/Potential Major,107,Loudoun County,7374,518210,3.77,0.00,25.44,0.17,1.27,0.46,0.65,31.76
+NRO,73630,Fort Belvoir - North Area,Synthetic Minor,059,Fairfax County,9711,928110,3.60,0.00,14.97,0.32,0.82,0.54,0.00,20.24
+NRO,73631,Liberty Crossing 2,True Minor,059,Fairfax County,9199,921190,1.06,0.00,10.14,0.00,0.29,0.16,0.15,11.80
+NRO,73670,Digital Loudoun II Limitied Liability Corporation,Major/Potential Major,107,Loudoun County,7376,541513,2.93,0.00,24.43,0.62,1.56,0.20,0.20,29.95
+NRO,73675,Interior Building Systems Corporation,Synthetic Minor,153,Prince William County,2431,321911,0.00,0.00,0.00,0.00,12.48,0.00,0.00,12.48
+NRO,73743,Latisys Ashburn,Synthetic Minor,107,Loudoun County,4813,517110,1.50,0.00,14.37,0.01,0.42,0.21,0.00,16.51
+NRO,73776,Navy Federal Credit Union - Follin Lane,Synthetic Minor,059,Fairfax County,6061,522130,8.25,0.00,17.26,0.59,0.83,0.55,0.00,27.48
+NRO,73810,Battlefield Farms Incorporated,Synthetic Minor,047,Culpeper County,0181,111422,15.36,0.00,28.47,0.81,0.50,1.00,0.98,47.13
+NRO,73814,Remington Mulch - Elkwood,Synthetic Minor,047,Culpeper County,0782,561730,1.76,0.00,13.80,0.12,1.80,1.29,0.34,19.11
+NRO,74011,Eastern Clearing Incorporated,Synthetic Minor,061,Fauquier County,1611,237310,5.10,0.00,22.48,0.01,0.80,4.18,0.00,32.58
+NRO,74022,Remington Mulch - Gainesville,Synthetic Minor,153,Prince William County,2875,325314,7.30,0.00,20.71,0.00,10.23,1.34,1.34,40.92
+PRO,30872,Redland Brick Incorporated - Lawrenceville Plant,Synthetic Minor,025,Brunswick County,3251,327120,10.65,0.00,9.35,3.55,1.13,4.83,4.83,34.33
+PRO,30993,Maplewood Recycling and Waste Disposal,Major/Potential Major,007,Amelia County,4953,562219,6.42,0.00,1.69,0.59,12.29,5.30,4.60,30.89
+PRO,30995,Virginia-Carolina Forest Products Inc,Synthetic Minor,025,Brunswick County,2421,321999,11.51,0.00,2.90,1.05,7.67,24.22,10.33,57.68
+PRO,31007,Brunswick Waste Mgmt Facility LLC,Major/Potential Major,025,Brunswick County,4953,562212,13.82,0.00,3.81,1.60,12.01,0.90,0.90,33.05
+PRO,31047,INGENCO - Amelia,Major/Potential Major,007,Amelia County,4931,221112,154.35,0.00,138.79,2.07,40.91,20.44,20.44,377.00
+PRO,40002,Tidewater Lumber,True Minor,057,Essex County,2421,321113,0.00,0.00,0.00,0.00,0.00,49.84,49.84,99.68
+PRO,40022,Ball Lumber Company Incorporated,Synthetic Minor,097,King and Queen County,2421,321113,32.01,0.00,11.74,1.33,62.26,27.18,13.67,148.18
+PRO,40090,Coldwater Veneer Incorporated,Synthetic Minor,101,King William County,2436,321212,7.77,0.00,4.22,0.21,50.00,8.11,8.11,78.42
+PRO,40126,WestRock CP LLC - West Point,Major/Potential Major,101,King William County,2631,322130,1389.95,0.00,1358.11,541.37,502.99,424.01,393.37,4609.81
+PRO,40278,Omega Protein Inc,Synthetic Minor,133,Northumberland County,2077,311710,14.22,0.00,25.05,0.50,1.51,4.15,1.13,46.57
+PRO,40371,Potomac Supply Limited Liability Company,Major/Potential Major,193,Westmoreland County,2421,321113,36.56,0.00,29.87,1.52,53.90,6.33,6.33,134.50
+PRO,40418,Perdue AgriBusiness LLC - Tappahannock/Essex,True Minor,057,Essex County,5153,424510,0.11,0.00,0.79,0.00,0.03,16.19,15.59,32.71
+PRO,40470,Perdue Farms Inc-Kinsale,True Minor,193,Westmoreland County,5153,424510,0.00,0.00,0.00,0.00,0.00,11.89,11.91,23.80
+PRO,40529,"Waller, R P Oil BP",True Minor,133,Northumberland County,5171,424710,0.00,0.00,0.00,0.00,10.29,0.00,0.00,10.29
+PRO,40542,Old Dominion Grain,Synthetic Minor,101,King William County,4221,493130,0.51,0.00,0.65,0.00,0.00,12.91,2.23,16.30
+PRO,40707,Bennett Mineral Company Inc,Synthetic Minor,097,King and Queen County,3295,327992,54.45,0.00,3.14,1.24,1.49,1.14,1.05,62.50
+PRO,40823,Augusta Wood Products LC - Sawmill,True Minor,101,King William County,2421,321912,1.24,0.00,0.17,0.03,16.81,4.14,4.14,26.54
+PRO,40896,NPPC King William,Synthetic Minor,101,King William County,1459,212325,18.79,0.00,44.96,0.22,1.01,24.91,24.91,114.79
+PRO,40911,Canon Environmental Technologies Incorporated,Synthetic Minor,073,Gloucester County,3999,339999,0.00,0.00,0.00,0.00,0.00,27.33,27.33,54.66
+PRO,40920,Middle Peninsula Landfill,Major/Potential Major,073,Gloucester County,4953,562212,229.46,0.00,122.26,5.64,18.24,19.89,19.17,414.66
+PRO,40937,King and Queen Sanitary Landfill,Major/Potential Major,097,King and Queen County,4953,562212,37.98,0.00,11.26,10.91,17.59,6.80,3.76,88.30
+PRO,40956,West Point Chips Incorporated,True Minor,101,King William County,2421,321113,0.00,0.00,0.00,0.00,0.00,34.66,34.66,69.32
+PRO,50012,US Federal Correctional Complex-Petersburg,Synthetic Minor,149,Prince George County,9223,922140,12.74,0.00,17.22,0.17,4.39,3.85,3.85,42.21
+PRO,50046,Branscome Richmond - Deepwater Terminal Rd,Synthetic Minor,760,Richmond City,2951,324121,50.35,0.00,15.10,11.08,4.53,3.40,3.40,87.85
+PRO,50060,Lee Hy Paving Company,Synthetic Minor,075,Goochland County,2951,324121,28.84,0.00,12.20,12.87,7.10,5.26,5.10,71.37
+PRO,50076,Philip Morris USA Manufacturing Center,Major/Potential Major,760,Richmond City,2111,312230,34.56,0.00,98.12,0.33,149.79,8.86,8.85,300.50
+PRO,50085,Packaging Corporation of America,Synthetic Minor,760,Richmond City,2653,322211,2.59,0.00,2.37,0.08,10.04,0.25,0.25,15.58
+PRO,50099,"Aleris Rolled Products, Inc.",Synthetic Minor,041,Chesterfield County,3341,331314,8.35,0.00,10.24,0.06,9.07,6.21,6.21,40.15
+PRO,50101,Chemtrade Solutions LLC - Hopewell,Synthetic Minor,670,Hopewell City,2819,325180,0.00,0.00,0.00,12.17,0.00,22.13,22.13,56.42
+PRO,50105,Flippo Lumber Corp,Synthetic Minor,085,Hanover County,2421,321912,28.63,0.00,28.63,1.43,55.72,40.85,32.85,188.12
+PRO,50113,J E Jones Lumber Co,Synthetic Minor,085,Hanover County,2421,321912,0.03,0.00,0.10,0.36,1.18,10.52,10.52,22.71
+PRO,50121,Magellan Terminals Holdings LP - Richmond Terminal,Synthetic Minor,760,Richmond City,4226,493190,3.13,0.00,1.25,0.00,12.98,0.00,0.00,17.35
+PRO,50125,Davis Oil Company,True Minor,183,Sussex County,5171,424710,0.00,0.00,0.00,0.00,25.17,0.00,0.00,25.17
+PRO,50126,VCU - Steam Plant,Major/Potential Major,760,Richmond City,8062,622110,31.16,0.00,19.80,0.23,4.39,2.51,2.51,60.60
+PRO,50127,Defense Supply Center Richmond,Synthetic Minor,041,Chesterfield County,9711,928110,5.46,0.00,17.86,0.15,0.91,0.69,0.64,25.71
+PRO,50137,Ashland Roller Mills,True Minor,085,Hanover County,2041,311211,0.00,0.00,0.00,0.00,0.00,57.75,57.75,115.50
+PRO,50143,Carter Printing,Synthetic Minor,760,Richmond City,2732,323117,0.02,0.00,0.08,0.25,10.40,0.01,0.01,10.77
+PRO,50144,Parker Oil Co - Emporia,True Minor,081,Greensville County,5171,424710,0.00,0.00,0.00,0.00,10.52,0.00,0.00,10.52
+PRO,50168,Transmontaigne Operating Co LP - Richmond Atlantic,Synthetic Minor,760,Richmond City,4226,493190,0.00,0.00,0.00,0.00,19.97,0.00,0.00,19.97
+PRO,50209,University of Richmond,Synthetic Minor,760,Richmond City,8221,611310,15.32,0.00,15.20,0.07,0.62,0.79,0.49,32.49
+PRO,50217,US Silica Company Montpelier Operation,Synthetic Minor,085,Hanover County,1459,212325,0.67,0.00,2.68,3.42,0.03,37.93,10.88,55.61
+PRO,50218,Sadler Brothers Oil Company,True Minor,081,Greensville County,5171,424710,0.00,0.00,0.00,0.00,39.98,0.00,0.00,39.98
+PRO,50232,Honeywell Resins and Chemicals LLC -Hopewell,Major/Potential Major,670,Hopewell City,2869,325199,180.40,0.00,4877.94,154.07,343.50,181.87,117.00,5854.79
+PRO,50233,AdvanSix Resins and Chemicals LLC - Chesterfield,Synthetic Minor,041,Chesterfield County,2821,325211,38.38,0.00,46.80,0.76,20.14,6.63,6.21,118.92
+PRO,50249,Kaiser Aluminum Fabricated Products LLC,Major/Potential Major,041,Chesterfield County,3354,331318,2.08,0.00,2.56,0.02,175.42,0.13,0.13,180.33
+PRO,50257,Aqua Clean Environmental of Virginia,Synthetic Minor,760,Richmond City,4953,562920,0.00,0.00,0.00,0.00,30.30,1.10,0.33,31.73
+PRO,50258,Kinder Morgan Southeast Terminals-Rchmd Terminal,Major/Potential Major,760,Richmond City,5171,424710,0.00,0.00,0.00,0.00,85.71,0.00,0.00,85.71
+PRO,50260,Reynolds Consumer Products LLC - Bellwood Printing,Major/Potential Major,041,Chesterfield County,2754,323111,2.29,0.00,2.73,0.02,110.25,0.21,0.21,115.70
+PRO,50278,Buckeye Terminals LLC - Richmond,Synthetic Minor,760,Richmond City,5171,424710,0.00,0.00,0.00,0.00,22.56,0.00,0.00,22.56
+PRO,50283,Georgia Pacific Wood Products - Emporia - Plywood,Major/Potential Major,081,Greensville County,2436,321212,975.20,0.00,215.48,26.43,69.21,149.07,146.41,1581.80
+PRO,50284,Motiva Enterprises LLC-Richmond Terminal,Synthetic Minor,760,Richmond City,5171,424710,10.66,0.00,4.25,0.00,31.66,0.00,0.00,46.57
+PRO,50292,Amsted Rail Company Incorporated,Synthetic Minor,730,Petersburg City,3562,332991,13.02,0.00,15.50,0.09,31.45,1.18,0.89,62.12
+PRO,50336,Dominion - Gravel Neck CT Station,Major/Potential Major,181,Surry County,4911,221113,4.68,0.00,112.16,14.19,1.72,1.47,1.33,135.54
+PRO,50356,Sonoco Products Co,Synthetic Minor,760,Richmond City,2675,322299,18.75,0.00,19.78,1.97,57.74,1.57,1.57,101.38
+PRO,50358,Cadmus Specialty Publications,Synthetic Minor,087,Henrico County,2752,323111,1.78,0.00,3.61,0.01,25.04,0.16,0.16,30.77
+PRO,50363,Hercules Inc Aqualon Div,Major/Potential Major,670,Hopewell City,2869,325199,0.00,0.00,0.00,0.00,592.80,10.93,10.93,614.66
+PRO,50370,WestRock CP LLC - Hopewell,Major/Potential Major,670,Hopewell City,2631,322130,771.45,0.00,1080.90,337.42,174.36,296.37,216.13,2876.62
+PRO,50396,Dominion - Chesterfield Power Station,Major/Potential Major,041,Chesterfield County,4911,221112,687.71,0.00,3174.27,2546.83,96.11,992.72,259.77,7757.40
+PRO,50397,E I du Pont de Nemours and Co-Spruance Plt,Major/Potential Major,041,Chesterfield County,2824,325220,6.00,0.00,9.02,0.44,267.88,26.47,26.47,336.27
+PRO,50412,Bon Secours St Marys Hospital,Synthetic Minor,087,Henrico County,8062,622110,6.39,0.00,10.36,1.18,0.48,0.65,0.65,19.71
+PRO,50418,DuPont Teijin Films,Major/Potential Major,041,Chesterfield County,2821,325211,18.84,0.00,24.33,4.69,106.43,14.00,13.90,182.18
+PRO,50426,Univar USA Incorporated - Chester,Synthetic Minor,041,Chesterfield County,5169,424690,0.09,0.00,0.35,0.00,32.70,0.02,0.02,33.18
+PRO,50429,Luck Stone Corp Boscobel Plant,Synthetic Minor,075,Goochland County,1423,212313,0.00,0.00,0.00,0.00,0.00,65.46,65.46,130.92
+PRO,50533,Kinder Morgan Southeast Terminals LLC,Synthetic Minor,760,Richmond City,5171,424710,1.67,0.00,1.99,0.01,13.52,0.04,0.04,17.27
+PRO,50552,UPACO Adhesives Division of Worthern Industries,True Minor,760,Richmond City,2891,325520,0.25,0.00,0.30,0.00,15.20,0.02,0.02,15.79
+PRO,50554,Chemours James River Plant,Major/Potential Major,041,Chesterfield County,2819,325180,0.02,0.00,5.29,51.60,0.00,7.35,0.01,64.25
+PRO,50555,Ennis Paint,Synthetic Minor,087,Henrico County,2851,325510,0.08,0.00,0.09,0.00,16.67,10.65,0.00,27.49
+PRO,50564,US Army Garrison and Fort Lee,Synthetic Minor,149,Prince George County,9711,928110,16.61,0.00,14.88,0.25,4.51,1.64,1.63,39.52
+PRO,50585,Seward Lumber Co Inc,True Minor,181,Surry County,2421,321912,0.00,0.00,0.00,0.00,0.00,12.62,12.62,25.24
+PRO,50703,Mondelez Global LLC - Richmond Bakery,Synthetic Minor,087,Henrico County,2052,311919,11.96,0.00,14.32,0.09,10.24,1.44,1.44,39.48
+PRO,50722,Philip Morris USA Inc - Park 500,Major/Potential Major,041,Chesterfield County,2141,312230,37.31,0.00,108.25,0.37,209.03,11.69,11.68,378.33
+PRO,50735,Hopewell Water Renewal,Major/Potential Major,670,Hopewell City,4952,221320,18.83,0.00,14.61,4.42,14.45,1.08,0.90,54.29
+PRO,50752,Shoosmith Brothers Inc,Major/Potential Major,041,Chesterfield County,4953,562212,26.72,0.00,9.10,20.06,51.27,2.23,2.23,111.62
+PRO,50833,Roslyn Converters Inc,Synthetic Minor,570,Colonial Heights City,2754,323111,0.32,0.00,1.60,0.01,41.63,0.88,0.05,44.48
+PRO,50838,IR Engraving LLC,True Minor,087,Henrico County,3554,333243,1.18,0.00,1.41,0.01,15.03,0.11,0.06,17.78
+PRO,50840,Bear Island Paper WB LLC,Major/Potential Major,085,Hanover County,2621,322122,207.68,0.00,185.09,224.42,501.62,64.24,64.24,1247.29
+PRO,50862,Allan Myers Materials,Synthetic Minor,075,Goochland County,2951,324121,26.79,0.00,6.48,15.08,9.02,8.77,0.00,66.14
+PRO,50891,Evonik Corporation,Synthetic Minor,670,Hopewell City,2819,325180,2.67,0.00,3.18,0.02,24.05,0.27,0.27,30.45
+PRO,50950,James River Genco LLC,Major/Potential Major,670,Hopewell City,4911,221112,652.92,0.00,941.14,1709.50,3.45,38.75,18.98,3364.74
+PRO,50967,Hopewell Cogeneration Ltd Partnership,Major/Potential Major,670,Hopewell City,4911,221112,80.05,0.00,758.87,52.13,6.91,16.53,11.65,926.14
+PRO,50980,Murphy Brown Waverly Division Feedmill,Synthetic Minor,183,Sussex County,2048,311119,2.64,0.00,3.17,0.15,0.16,15.92,4.12,26.16
+PRO,50984,Maruchan Virginia Inc,Synthetic Minor,041,Chesterfield County,2099,311824,4.87,0.00,5.80,0.03,0.32,11.20,11.20,33.43
+PRO,50988,Dominion - Bellemeade Power Station,Major/Potential Major,760,Richmond City,4911,221112,156.07,0.00,156.01,23.51,5.93,2.88,2.88,347.27
+PRO,50997,Dominion - Darbytown CT Station,Major/Potential Major,087,Henrico County,4911,221112,0.64,0.00,97.20,21.30,1.64,6.16,6.14,133.09
+PRO,51001,DOC Greensville,Synthetic Minor,081,Greensville County,9223,922140,3.17,0.00,10.97,1.73,15.17,0.84,0.78,32.65
+PRO,51002,Columbia Gas Transmission Corp-Goochland,Major/Potential Major,075,Goochland County,4922,486210,25.09,0.00,17.28,0.06,4.39,0.55,0.48,47.85
+PRO,51009,Columbia Gas Transmission Corp-Prince Georg,Major/Potential Major,149,Prince George County,4922,486210,10.58,0.00,69.37,0.02,5.28,1.16,1.16,87.58
+PRO,51018,Doswell Limited Partnership,Major/Potential Major,085,Hanover County,4911,221112,496.52,0.00,722.35,14.51,78.21,523.52,523.13,2358.25
+PRO,51019,Dominion - Hopewell Power Station,Major/Potential Major,670,Hopewell City,4911,221112,455.37,0.00,202.05,12.30,5.22,17.60,16.43,708.95
+PRO,51033,Spruance Genco LLC,Major/Potential Major,760,Richmond City,4911,221112,230.90,0.00,1450.67,407.82,1.32,29.87,29.85,2150.42
+PRO,51034,Kinder Morgan  Transmix Company LLC,Synthetic Minor,760,Richmond City,5171,424710,4.67,0.00,4.80,0.03,13.46,0.34,0.34,23.63
+PRO,51069,"BFI Waste Systems of North America, LLC - Charles City Rd Landfill",Synthetic Minor,087,Henrico County,4911,221112,19.85,0.00,3.65,0.85,0.11,0.90,0.90,26.26
+PRO,51075,Afton Chemical Corporation,Synthetic Minor,760,Richmond City,8734,541380,35.07,0.00,51.87,5.60,51.59,2.53,2.53,149.19
+PRO,51147,Henrico County Water Reclamation Facility,Synthetic Minor,087,Henrico County,9631,926130,14.92,0.00,6.24,1.51,4.82,0.32,0.31,28.11
+PRO,51226,"SteelFab of Virginia, Inc.",True Minor,081,Greensville County,3441,332312,0.00,0.00,0.00,0.00,16.76,8.82,8.82,34.41
+PRO,51227,BFI Old Dominion Landfill,Major/Potential Major,087,Henrico County,4953,562212,46.90,0.00,8.73,2.12,14.29,5.82,2.79,80.65
+PRO,51264,Chaparral Virginia Incorporated,Major/Potential Major,053,Dinwiddie County,3312,331110,1957.47,0.00,250.36,17.42,49.27,24.54,23.81,2322.87
+PRO,51278,Atlantic Waste Disposal Inc - Waverly,Major/Potential Major,183,Sussex County,4953,562212,23.45,0.00,14.90,1.77,36.12,39.19,26.84,142.27
+PRO,51282,Sun Chemical Corporation - Richmond Facility,Synthetic Minor,570,Colonial Heights City,2893,325910,0.00,0.00,0.00,0.00,81.09,0.17,0.17,81.43
+PRO,51919,Essentra Packaging Incorporated,Synthetic Minor,041,Chesterfield County,2754,323111,0.00,0.00,0.00,0.00,24.30,0.00,0.00,24.30
+PRO,51924,DuPont Teijin Films,Major/Potential Major,041,Chesterfield County,2671,326112,0.00,0.00,0.00,0.00,56.50,0.00,0.00,56.50
+PRO,51970,Showbest Fixture Corporation,Synthetic Minor,087,Henrico County,2541,337215,0.00,0.00,0.00,0.00,12.49,0.10,0.00,12.59
+PRO,51988,Carry On Trailer Corp,Synthetic Minor,133,Northumberland County,3799,336214,0.00,0.00,0.07,0.00,21.29,0.00,0.00,21.36
+PRO,51998,INGENCO - Charles City,Major/Potential Major,036,Charles City County,4931,221112,204.01,0.00,174.37,4.99,38.12,12.71,12.71,446.91
+PRO,52037,INGENCO - Chester Plant,Major/Potential Major,041,Chesterfield County,4931,221112,171.16,0.00,155.90,53.43,51.43,25.91,25.91,483.73
+PRO,52063,Carry On Trailer Corporation,Synthetic Minor,193,Westmoreland County,3715,336212,0.00,0.00,0.00,0.00,34.28,1.47,0.00,35.75
+PRO,52078,Windsor Surry Company,Synthetic Minor,181,Surry County,2493,321219,0.26,0.00,0.44,0.00,47.25,0.42,0.39,48.77
+PRO,52080,Dominion Packaging Incorporated,Synthetic Minor,760,Richmond City,2754,323111,2.13,0.00,2.54,0.02,13.93,0.19,0.19,19.00
+PRO,52108,Lee Hy Paving Corporation - New Kent Plant 2,Synthetic Minor,127,New Kent County,2951,324121,12.50,0.00,5.29,5.70,3.08,0.66,0.15,27.39
+PRO,52118,Southern Graphic Systems Inc,Synthetic Minor,087,Henrico County,2796,323120,0.00,0.00,0.00,0.00,12.92,0.00,0.00,12.92
+PRO,52131,"O'Malley Timber Products, Inc.",True Minor,057,Essex County,0811,113110,26.39,0.00,9.68,1.10,26.05,15.77,7.48,86.47
+PRO,52148,INGENCO - King and Queen,Major/Potential Major,097,King and Queen County,4931,221112,210.09,0.00,175.85,38.87,62.68,15.66,15.66,518.82
+PRO,52154,INGENCO - Brunswick Plant,Major/Potential Major,025,Brunswick County,4931,221112,217.50,0.00,182.62,2.22,61.67,18.51,18.51,501.03
+PRO,52161,Lee Hy Paving Corporation - Chester,True Minor,041,Chesterfield County,2951,324121,23.33,0.00,4.83,3.23,0.48,0.26,0.02,32.15
+PRO,52198,Richmond Energy LLC,Major/Potential Major,087,Henrico County,4931,221112,240.70,0.00,34.00,3.60,6.70,5.40,5.40,295.80
+PRO,52205,Colony Construction Asphalt LLC,Synthetic Minor,145,Powhatan County,2951,324121,16.43,0.00,4.61,17.83,5.96,0.81,0.00,45.63
+PRO,52211,Green Plains Hopewell Limited Liability Company,Synthetic Minor,670,Hopewell City,2869,325193,40.68,0.00,52.32,1.88,44.38,40.78,40.47,220.51
+PRO,52281,Capital One Services Incorporated,Synthetic Minor,087,Henrico County,6021,522210,4.26,0.00,10.15,0.08,0.64,0.29,0.00,15.42
+PRO,52285,ColorTree Group,Synthetic Minor,087,Henrico County,2677,322230,0.00,0.00,0.00,0.00,20.13,0.00,0.00,20.13
+PRO,52297,Hanover Foils LLC,Synthetic Minor,085,Hanover County,2754,323111,0.00,0.00,0.00,0.00,30.74,0.00,0.00,30.74
+PRO,52303,INGENCO Wholesale Power LLC - Henrico,Synthetic Minor,087,Henrico County,4931,221112,53.00,0.00,46.80,0.90,31.00,31.00,31.00,193.70
+PRO,52322,Powerhouse Equipment and Enginrng - Portable 52322,Synthetic Minor,101,King William County,5074,423720,4.00,0.00,16.00,5.68,0.00,0.80,0.00,26.48
+PRO,52359,Allan Myers VA Inc dba Allan Myers Mtls - Powhatan,Synthetic Minor,145,Powhatan County,2951,324121,14.19,0.00,6.23,14.36,3.98,0.86,0.02,39.65
+PRO,52368,Wood Fuel Developers - West Main St,Synthetic Minor,183,Sussex County,2499,321999,37.21,0.00,31.80,0.03,44.07,32.59,32.59,178.30
+PRO,52448,Tri City Regional Disposal and Recycling Services,Synthetic Minor,730,Petersburg City,4953,562212,3.19,0.00,0.00,0.00,2.74,22.83,2.46,31.23
+SWRO,10050,General Dynamics OTS Inc - Plant #1,Major/Potential Major,173,Smyth County,3728,336413,3.97,0.00,4.77,1.16,80.68,1.97,1.96,94.51
+SWRO,10060,Ball Metal Beverage Container Corporation - Bristol,Synthetic Minor,520,Bristol City,3411,332431,0.48,0.00,0.58,0.00,21.33,0.04,0.00,22.44
+SWRO,10190,W-L Construction - Abingdon Asphalt Plant,Synthetic Minor,191,Washington County,2951,324121,5.66,0.00,2.39,15.32,1.39,0.00,0.00,24.76
+SWRO,10200,Jewell Coke Company LLP,Major/Potential Major,027,Buchanan County,3312,324199,58.71,0.00,515.81,4844.65,52.73,768.66,0.56,6241.10
+SWRO,10211,Strongwell Corporation/Bristol Division,Major/Potential Major,520,Bristol City,3089,326199,0.57,0.00,0.68,0.00,18.18,0.15,0.00,19.58
+SWRO,10236,American Electric Power-Clinch River Plant,Major/Potential Major,167,Russell County,4911,221112,51.21,0.00,805.21,2059.32,6.05,111.91,46.78,3080.48
+SWRO,10244,General Shale Brick Inc,Synthetic Minor,173,Smyth County,3251,327120,23.32,0.00,14.87,66.87,0.70,18.17,0.00,123.93
+SWRO,10273,Turman Hardwood Flooring Inc.,Synthetic Minor,640,Galax City,2426,321918,25.63,0.00,7.27,1.02,19.15,4.98,0.00,58.06
+SWRO,10302,Webb Furniture Enterprises LLC# 4,Synthetic Minor,640,Galax City,3231,327215,0.04,0.00,0.17,0.51,22.90,0.01,0.00,23.64
+SWRO,10308,Vaughan-Bassett Furniture Company,Major/Potential Major,640,Galax City,2511,337122,41.36,0.00,35.21,7.98,621.42,12.32,11.57,729.86
+SWRO,10332,Vaughan Bassett Furniture Co Galax Plant #2,Major/Potential Major,640,Galax City,2511,337122,0.81,0.00,0.92,1.15,12.05,1.22,1.17,17.32
+SWRO,10333,Universal Fibers Inc.,Synthetic Minor,191,Washington County,2824,325220,2.69,0.00,3.20,0.02,30.87,6.02,0.00,42.79
+SWRO,10391,VDOC - Bland Correctional Center,Synthetic Minor,021,Bland County,9223,922140,12.91,0.00,12.14,27.33,1.78,0.79,0.00,54.96
+SWRO,10410,Quadrant Engineering Plastic Products,Synthetic Minor,197,Wythe County,3089,326199,0.15,0.00,0.17,0.00,24.00,0.02,0.00,24.35
+SWRO,10425,W-L Construction & Paving Inc,Synthetic Minor,185,Tazewell County,2951,324121,10.11,0.00,3.13,0.21,0.22,0.25,0.00,13.92
+SWRO,10581,VFP Incorporated/Concrete Shelter Division,Synthetic Minor,169,Scott County,3272,327390,0.08,0.00,0.37,0.71,12.26,0.29,0.00,13.71
+SWRO,10700,General Dynamics OTS Inc - Plants #s 2 & 3,Synthetic Minor,173,Smyth County,3728,336413,1.12,0.00,1.40,0.01,10.18,0.96,0.00,13.66
+SWRO,10753,Riggs Oil Company Incorporated/Big Stone Gap 1,True Minor,195,Wise County,5171,424710,0.00,0.00,0.00,0.00,39.67,0.00,0.00,39.67
+SWRO,10804,"Dickenson-Russell Contura, LLC/McClure River Prep Plant",Major/Potential Major,051,Dickenson County,1221,212111,3.07,0.00,30.53,5.20,75.39,10.90,0.04,125.14
+SWRO,10814,ABB Inc.,Synthetic Minor,021,Bland County,3612,335311,0.00,0.00,0.00,0.00,57.45,0.04,0.00,57.48
+SWRO,10837,Wellmore #8,Synthetic Minor,027,Buchanan County,1221,212111,0.00,0.00,0.00,0.00,30.40,3.03,0.00,33.43
+SWRO,10846,Highlands Petroleum Oil Corporation,True Minor,191,Washington County,5171,424710,0.00,0.00,0.00,0.00,11.80,0.00,0.00,11.80
+SWRO,10893,Paramont Coal Co. Virginia LLC,Synthetic Minor,195,Wise County,1221,212111,0.00,0.00,0.00,0.00,33.01,3.83,0.00,36.83
+SWRO,10905,Knox Creek Coal Corporation,Synthetic Minor,185,Tazewell County,1221,212111,0.00,0.00,0.00,0.00,17.77,1.50,0.00,19.27
+SWRO,10945,Buchanan Preparation Plant Facility,Major/Potential Major,027,Buchanan County,1221,212111,54.96,0.00,22.60,0.02,76.36,359.02,17.20,530.16
+SWRO,10950,Lone Mountain Processing,Synthetic Minor,105,Lee County,1221,212111,0.00,0.00,0.00,0.00,17.49,4.18,0.00,21.67
+SWRO,10990,Adams Construction Company,Synthetic Minor,197,Wythe County,2951,324121,10.19,0.00,1.11,9.07,2.44,2.69,0.00,25.50
+SWRO,10998,East Tennessee Natural Gas Company/Rural Retreat,Synthetic Minor,197,Wythe County,4922,486210,12.54,0.00,10.30,1.05,1.47,0.74,0.00,26.09
+SWRO,11001,EQT Gathering LLC - Station A,True Minor,195,Wise County,4922,486210,10.79,0.00,7.14,0.00,0.31,0.00,0.00,18.23
+SWRO,11002,EQT Gathering LLC -Station B,True Minor,195,Wise County,4922,486210,11.35,0.00,7.51,0.00,0.32,0.00,0.00,19.19
+SWRO,11003,EQT Gathering LLC- Sta H2 - 11003P,True Minor,195,Wise County,4922,486210,11.36,0.00,7.51,0.00,0.32,0.00,0.00,19.19
+SWRO,11019,"Hutchinson Sealing Systems North Amer, Inc.",Synthetic Minor,197,Wythe County,3061,326291,0.00,0.00,0.00,0.00,12.60,0.03,0.00,12.63
+SWRO,11046,East Tennessee Natural Gas Co-Station 3401,Major/Potential Major,051,Dickenson County,4922,486210,56.50,0.00,95.44,0.13,44.43,10.36,10.36,217.22
+SWRO,11072,Utility Trailer Manufacturing Company - Atkins,Synthetic Minor,173,Smyth County,3715,336212,0.00,0.00,0.00,0.00,71.10,0.01,0.00,71.11
+SWRO,11074,Appalachian Plastics Incorporated,Major/Potential Major,191,Washington County,3089,326199,0.00,0.00,0.00,0.00,20.79,0.00,0.00,20.79
+SWRO,11084,Woodgrain Millwork Incorporated,Synthetic Minor,173,Smyth County,2431,321918,26.94,0.00,15.54,1.07,24.37,17.41,0.00,85.32
+SWRO,11085,Consolidated Glass & Mirror Corporation - Jack Guynn Dr,Major/Potential Major,640,Galax City,3231,327215,0.07,0.00,0.26,0.03,67.32,0.04,0.00,67.72
+SWRO,11096,Range Resources Pine Mtn - Conway,True Minor,027,Buchanan County,1311,211111,10.00,0.00,7.90,0.00,2.42,0.00,0.00,20.32
+SWRO,11105,Klockner Pentaplast,Synthetic Minor,197,Wythe County,3081,326113,0.67,0.00,0.93,0.02,13.09,0.10,0.00,14.80
+SWRO,11134,Turman Sawmill Inc,Synthetic Minor,035,Carroll County,2421,321113,17.71,0.00,6.96,0.79,12.65,1.13,0.26,39.49
+SWRO,11146,B A Mullican Lumber & Manufacturing Company Incorp,Synthetic Minor,195,Wise County,2426,321918,20.27,0.00,3.45,0.38,7.10,16.40,0.00,47.60
+SWRO,11149,EQT Gathering LLC-Comp I1- 11149P,Synthetic Minor,195,Wise County,4922,486210,12.41,0.00,8.21,0.00,1.03,0.00,0.00,21.65
+SWRO,11184,Bristol Virginia Integrated Solid Waste Facility,True Minor,520,Bristol City,4953,562213,10.48,0.00,2.80,1.11,11.82,5.28,1.94,33.43
+SWRO,11207,Strongwell Highlands,Major/Potential Major,191,Washington County,3083,326130,0.29,0.00,0.34,0.00,11.45,0.09,0.00,12.17
+SWRO,11227,EQT Gathering LLC-Comp I3- 11227P,Synthetic Minor,195,Wise County,4922,486210,12.28,0.00,8.13,0.00,4.07,0.00,0.00,24.48
+SWRO,11229,Range Resources Pine Mtn Inc-Hatchet Branch,True Minor,051,Dickenson County,4922,486210,15.63,0.00,10.34,0.00,5.18,0.00,0.00,31.16
+SWRO,11272,Range Resources Pine Mtn Inc-Wampler Ridge 1,True Minor,051,Dickenson County,1311,211111,1.82,0.00,22.68,0.02,0.33,0.00,0.00,24.86
+SWRO,11340,Musser Lumber Company Inc,Synthetic Minor,197,Wythe County,2421,321912,16.99,0.00,14.60,0.70,3.23,4.79,0.00,40.30
+SWRO,11344,Utility Trailer Manufacturing Company - Glade Spring,Synthetic Minor,191,Washington County,3715,336212,0.00,0.00,0.00,0.00,58.20,0.02,0.00,58.22
+SWRO,11348,"Wolf Hills Energy, LLC",Major/Potential Major,191,Washington County,4911,221112,8.13,0.00,51.40,0.60,1.20,6.61,6.61,74.55
+SWRO,11370,Paramont Mfg LLC,Synthetic Minor,191,Washington County,3061,326291,0.00,0.00,0.00,0.00,73.62,0.08,0.00,73.70
+SWRO,11377,Range Resources Pine Mtn Inc-Ramsey Ridge,Synthetic Minor,051,Dickenson County,1311,211111,10.89,0.00,7.86,0.00,2.42,0.00,0.00,21.17
+SWRO,11390,"Buchanan Generation, LLC",Major/Potential Major,027,Buchanan County,4911,221112,11.70,0.00,30.50,0.23,0.82,2.58,2.58,48.41
+SWRO,11401,Continuum Midstream LLC,True Minor,105,Lee County,1311,211111,48.45,0.00,48.69,0.00,7.25,0.00,0.00,104.39
+SWRO,11471,EQT Gathering LLC - Sta C2- 11471P,Synthetic Minor,195,Wise County,4922,486210,9.87,0.00,12.47,0.00,3.08,0.00,0.00,25.42
+SWRO,11473,Range Resources Pine Mtn Inc -Smith Ridge 2,True Minor,051,Dickenson County,4922,486210,0.80,0.00,14.24,0.00,3.55,0.00,0.00,18.59
+SWRO,11474,EnerVest Operating LLC,True Minor,027,Buchanan County,4922,486210,9.89,0.00,12.37,0.00,3.09,0.00,0.00,25.35
+SWRO,11475,Range Resources Pine Mtn Inc - Abner Gap 2,True Minor,051,Dickenson County,4922,486210,11.60,0.00,14.49,0.00,3.62,0.00,0.00,29.71
+SWRO,11476,Range Resources Pine Mtn Inc- Nancy Station2,True Minor,051,Dickenson County,4922,486210,11.87,0.00,14.83,0.00,3.71,0.00,0.00,30.41
+SWRO,11484,Independence Lumber Inc,Synthetic Minor,077,Grayson County,1423,212313,27.83,0.00,10.20,1.16,8.93,10.04,0.00,58.16
+SWRO,11497,Range Resources Pine Mtn-Birchleaf Compressor,Synthetic Minor,051,Dickenson County,1311,211111,51.13,0.00,68.15,0.00,23.71,1.54,0.00,144.53
+SWRO,11526,Dominion - Virginia City Hybrid Energy Center,Major/Potential Major,195,Wise County,4911,221112,908.52,0.00,974.94,100.40,10.52,199.55,173.57,2367.50
+SWRO,11532,Range Resources - Pine Mtn - Wakenva Station,True Minor,051,Dickenson County,1311,211111,8.81,0.00,27.20,0.00,11.04,1.25,0.00,48.30
+SWRO,11536,Range Resources Pine Mtn Inc-Liberty 1,True Minor,051,Dickenson County,4923,486210,0.90,0.00,22.55,0.00,4.62,0.00,0.00,28.07
+SWRO,11537,Range Resources Pine Mtn Inc-Liberty 2,True Minor,051,Dickenson County,4923,486210,1.33,0.00,33.08,0.00,6.78,0.00,0.00,41.19
+SWRO,11546,Range Resources Pine Mtn Inc  - Nancy 3,True Minor,051,Dickenson County,4923,486210,3.79,0.00,18.91,0.00,1.95,0.00,0.00,24.66
+SWRO,11547,Range Resources Pine Mtn Inc Hurricane Crk3,True Minor,027,Buchanan County,4923,486210,3.58,0.00,17.89,0.00,1.85,0.00,0.00,23.32
+SWRO,11548,Range Resources Pine Mtn Lick Crk 3,True Minor,051,Dickenson County,4923,486210,2.84,0.00,14.21,0.00,1.52,0.00,0.00,18.57
+SWRO,11594,Range Resources Pine Mtn Ramsey Ridge,Synthetic Minor,051,Dickenson County,1311,211111,3.83,0.00,19.06,0.00,2.02,0.00,0.00,24.92
+SWRO,11596,Range Resources Pine Mtn- Sandy Ridge 4,True Minor,051,Dickenson County,4923,486210,0.53,0.00,14.89,0.00,6.40,0.00,0.00,21.82
+SWRO,11598,Carroll-Grayson Galax Solid Waste Authority,True Minor,035,Carroll County,4953,562211,0.67,0.00,0.00,0.00,1.56,27.81,2.78,32.82
+SWRO,11610,Range Resources Pine Mtn - Wampler Ridge 4,True Minor,051,Dickenson County,1311,211111,0.55,0.00,15.48,0.00,6.63,0.00,0.00,22.66
+SWRO,11701,Range Resources-Pine Mountain Inc,Synthetic Minor,051,Dickenson County,1389,213112,41.26,0.00,44.62,0.00,5.81,0.00,0.00,91.69
+SWRO,11717,Range Resources -Pine Mtn Inc-Booster St,Synthetic Minor,051,Dickenson County,1389,213112,29.93,0.00,6.16,0.00,3.20,0.00,0.00,39.29
+SWRO,11726,Tazewell Landfill Development LLC,True Minor,185,Tazewell County,4953,562211,5.14,0.00,0.00,0.00,0.00,29.32,0.00,34.46
+TRO,40333,Tyson Farms Inc - Temperanceville,Major/Potential Major,001,Accomack County,2015,311615,7.90,0.00,86.13,112.60,0.67,14.51,14.33,236.14
+TRO,40483,Valley Proteins - Accomac Division,True Minor,001,Accomack County,2013,311613,3.08,0.00,39.20,24.84,6.67,9.98,0.14,83.92
+TRO,40602,Calpine Mid-Atlantic Generation LLC - Bayview,Major/Potential Major,131,Northampton County,4911,221112,0.34,0.00,73.00,0.01,2.05,1.31,0.00,76.70
+TRO,40722,KMX Chemical Corporation,Synthetic Minor,001,Accomack County,2869,325193,0.99,0.00,4.76,4.23,17.69,0.46,0.00,28.13
+TRO,40898,Commonwealth Chesapeake Power Station,Major/Potential Major,001,Accomack County,4911,221112,29.30,0.00,95.35,6.29,1.27,8.06,0.00,140.27
+TRO,60016,Arc Terminals Holdings LLC,Synthetic Minor,550,Chesapeake City,4226,493190,0.00,0.00,0.00,0.00,19.05,0.00,0.00,19.05
+TRO,60027,Branscome Inc - Hampton - Pembroke Ave,Synthetic Minor,650,Hampton City,2951,324121,11.75,0.00,4.97,0.31,2.89,0.80,0.00,20.72
+TRO,60030,Virginia Paving Company Div Lane Const Corp,Synthetic Minor,810,Virginia Beach City,2951,324121,22.06,0.00,4.66,0.56,5.43,1.51,0.00,34.22
+TRO,60033,US Navy - Joint Expeditionary Base - Little Creek,Major/Potential Major,810,Virginia Beach City,9711,928110,7.62,0.00,30.31,1.30,11.46,2.23,2.05,54.96
+TRO,60050,"Kinder Morgan/Elizabeth River Terminals, LLC",Synthetic Minor,550,Chesapeake City,4491,488320,0.00,0.00,0.00,0.00,0.00,23.51,0.00,23.51
+TRO,60051,US NASA - Langley Research Center,Synthetic Minor,650,Hampton City,9661,927110,15.45,0.00,13.48,0.13,1.89,1.43,1.27,33.65
+TRO,60059,US Air Force Base Langley,Synthetic Minor,650,Hampton City,9711,928110,11.86,0.00,18.65,0.65,6.98,1.40,1.21,40.76
+TRO,60063,Birdsong Peanut Company - Suffolk,Synthetic Minor,800,Suffolk City,0723,115114,0.00,0.00,0.00,0.00,0.00,30.54,0.00,30.54
+TRO,60065,Ball Metal Beverage Container Corporation-Williamsburg,Major/Potential Major,095,James City County,3411,332431,6.56,0.00,7.87,0.05,331.37,1.87,0.00,347.72
+TRO,60069,Kinder Morgan - South Hill Terminal,Synthetic Minor,550,Chesapeake City,4226,493190,0.04,0.00,1.02,0.00,19.01,0.00,0.00,20.08
+TRO,60077,Kerneos Incorporated,Synthetic Minor,550,Chesapeake City,3297,327120,3.34,0.00,66.87,0.00,0.32,46.58,0.00,117.11
+TRO,60085,Archer Daniels Midland Company - Ag Services,True Minor,800,Suffolk City,0723,115114,0.00,0.00,0.00,0.00,0.00,10.43,0.00,10.43
+TRO,60102,The Scoular Company,True Minor,093,Isle of Wight County,5153,424510,0.06,0.00,0.10,0.00,0.00,18.59,0.00,18.74
+TRO,60106,Hampton University,Synthetic Minor,650,Hampton City,8221,611310,7.00,0.00,15.39,1.19,0.68,0.81,0.11,25.19
+TRO,60108,Colonnas Shipyard Inc,Major/Potential Major,710,Norfolk City,3731,336611,1.89,0.00,8.38,0.00,45.82,7.93,0.74,64.77
+TRO,60116,Plains Marketing LP Yorktown,Major/Potential Major,199,York County,5171,424710,17.44,0.00,6.92,0.00,646.41,0.00,0.00,670.77
+TRO,60137,Dominion - Yorktown Power Station,Major/Potential Major,199,York County,4911,221112,85.53,0.00,1047.15,4549.34,12.10,189.84,46.85,5930.80
+TRO,60141,US Department of Veterans Affairs Medical Ctr,Synthetic Minor,650,Hampton City,9451,923140,6.59,0.00,11.25,0.29,0.55,0.70,0.00,19.39
+TRO,60152,Anheuser-Busch LLC - Williamsburg Brewery,Major/Potential Major,095,James City County,2082,312120,31.24,0.00,38.21,3.48,119.77,4.55,2.94,200.20
+TRO,60153,Huntington Ingalls Incorporated - NN Shipbldg Div,Major/Potential Major,700,Newport News City,3731,336611,38.03,0.00,236.69,351.13,228.88,44.75,9.22,908.70
+TRO,60158,College of William and Mary,Synthetic Minor,830,Williamsburg City,8221,611310,11.55,0.00,14.16,0.08,0.76,1.06,0.00,27.62
+TRO,60161,Citgo Petroleum Chesapeake Terminal,Synthetic Minor,550,Chesapeake City,5171,424710,4.07,0.00,1.72,0.00,34.48,0.00,0.00,40.27
+TRO,60164,Sentara Norfolk General Hospital,Synthetic Minor,710,Norfolk City,4961,221330,11.94,0.00,15.49,1.15,0.80,1.27,1.09,31.75
+TRO,60180,Norfolk Southern - Lamberts Point,Synthetic Minor,710,Norfolk City,4011,482111,0.02,0.00,0.07,0.12,0.00,22.50,0.00,22.71
+TRO,60188,Solenis LLC,Major/Potential Major,175,Southampton County,2861,325194,13.38,0.00,8.22,0.52,5.16,1.24,1.23,29.76
+TRO,60208,Mica Company of Canada Inc,Major/Potential Major,700,Newport News City,3299,327999,0.17,0.00,0.21,0.01,32.14,0.02,0.00,32.55
+TRO,60214,International Paper - Franklin Mill,Major/Potential Major,093,Isle of Wight County,2621,322121,412.03,0.00,488.14,263.67,271.31,430.91,145.25,2011.33
+TRO,60231,Cameron Chemical Inc,Synthetic Minor,800,Suffolk City,2875,325314,0.00,0.00,0.00,0.00,0.00,12.84,0.00,12.84
+TRO,60234,U S Gypsum Company,Major/Potential Major,710,Norfolk City,3275,327420,9.56,0.00,9.54,0.15,7.45,74.92,0.00,101.62
+TRO,60242,TransMontaigne Product Services Inc - Norfolk Terminal,Major/Potential Major,550,Chesapeake City,4226,493190,4.86,0.00,1.33,0.03,60.94,0.01,0.00,67.17
+TRO,60246,BAE Systems Norfolk Ship Repair Inc,Major/Potential Major,710,Norfolk City,3731,336611,5.32,0.00,8.12,0.04,22.44,12.47,0.07,48.46
+TRO,60270,Smithfield Packing Co Inc - Complex - Smithfield,Major/Potential Major,093,Isle of Wight County,2011,311611,15.47,0.00,17.74,0.72,7.95,6.64,6.56,55.09
+TRO,60274,Kinder Morgan Southeast Terminals LLC - Chesapeake,Synthetic Minor,550,Chesapeake City,4226,493190,0.00,0.00,0.00,0.00,38.84,0.00,0.00,38.84
+TRO,60277,Perdue AgriBusiness - Chesapeake,Major/Potential Major,550,Chesapeake City,2075,311224,29.06,0.00,19.45,0.21,380.90,66.59,3.93,500.14
+TRO,60293,US Navy - Naval Medical Center Portsmouth,Major/Potential Major,740,Portsmouth City,8062,622110,9.74,0.00,16.48,0.08,0.78,1.16,0.00,28.25
+TRO,60294,US Navy Naval Air Station Oceana,Major/Potential Major,810,Virginia Beach City,9711,928110,44.08,0.00,42.01,1.25,33.10,11.92,0.11,132.47
+TRO,60302,Blair Brothers Incorporated,Synthetic Minor,800,Suffolk City,2951,324121,14.39,0.00,5.39,10.00,4.97,3.76,0.00,38.51
+TRO,60333,Joint Base Langley Eustis,Synthetic Minor,700,Newport News City,9711,928110,13.47,0.00,21.38,0.13,6.92,2.05,1.33,45.29
+TRO,60349,HRSD Army Base Sewage Treatment Plant,Major/Potential Major,710,Norfolk City,4952,221320,30.27,0.00,4.95,46.80,5.26,0.02,0.00,87.30
+TRO,60350,HRSD Virginia Initiative Plant,Major/Potential Major,710,Norfolk City,4952,221320,113.31,0.00,25.09,173.72,17.56,0.82,0.00,330.50
+TRO,60351,HRSD - Boat Harbor Sewage Treatment Plant,Major/Potential Major,700,Newport News City,4952,221320,104.81,0.00,17.39,162.82,11.25,0.57,0.00,296.85
+TRO,60355,HRSD - Williamsburg Sewage Treatment Plant,Major/Potential Major,095,James City County,4952,221320,84.84,0.00,14.47,131.19,7.87,0.02,0.00,238.39
+TRO,60401,Colonial Williamsburg Foundation,Synthetic Minor,830,Williamsburg City,7999,713990,7.57,0.00,10.77,0.05,0.65,0.72,0.00,19.77
+TRO,60431,HRSD Chesapeake-Elizabeth Sewage Treatment Plant,Major/Potential Major,810,Virginia Beach City,4952,221320,98.42,0.00,17.83,151.64,12.83,0.50,0.00,281.22
+TRO,60476,Continental Automotive Systems US Incorporated,Synthetic Minor,700,Newport News City,3714,336310,0.93,0.00,0.89,0.02,38.42,0.06,0.00,40.33
+TRO,60583,Fleet & Industrial Supply Center,Synthetic Minor,740,Portsmouth City,5171,424710,0.16,0.00,0.73,0.00,20.49,0.06,0.04,21.47
+TRO,60611,Branscome Inc - Lee Hall,Synthetic Minor,095,James City County,2951,324121,12.45,0.00,0.00,11.82,15.52,6.16,0.00,45.96
+TRO,60636,Howmet Casting and Services Incorporated,Synthetic Minor,650,Hampton City,3369,331529,15.25,0.00,19.60,0.11,22.24,18.91,1.37,77.47
+TRO,60912,Kinder Morgan - Norfolk Terminal,Synthetic Minor,710,Norfolk City,4226,493190,0.02,0.00,0.09,0.03,11.64,0.01,0.00,11.79
+TRO,60920,Buckeye Terminals LLC - Chesapeake Terminal,Synthetic Minor,550,Chesapeake City,5171,424710,1.15,0.00,2.45,0.01,37.72,0.16,0.00,41.49
+TRO,60923,Owens-Brockway Glass Container Inc,Major/Potential Major,095,James City County,3221,327213,5.65,0.00,406.65,261.65,5.98,16.89,16.18,713.00
+TRO,60927,Swimways Corporation,Synthetic Minor,810,Virginia Beach City,3086,326150,0.13,0.00,0.16,0.00,27.42,0.01,0.00,27.73
+TRO,60941,US Navy Norfolk Naval Base-Sewells Point,Major/Potential Major,710,Norfolk City,9711,928110,68.88,0.00,99.77,14.70,77.11,16.57,0.21,277.23
+TRO,60957,US Navy - Naval Support Act Hampton Roads NW Annex,Synthetic Minor,550,Chesapeake City,9711,928110,2.26,0.00,10.45,0.07,2.51,0.78,0.76,16.83
+TRO,60959,HRSD Atlantic Sewage Treatment Plant,Synthetic Minor,810,Virginia Beach City,4952,221320,27.63,0.00,10.90,13.90,17.48,0.54,0.00,70.44
+TRO,60961,Amadas Industries - Holland Road,Synthetic Minor,800,Suffolk City,3523,333111,0.00,0.00,0.00,0.00,10.38,0.00,0.00,10.38
+TRO,60980,Liebherr Mining and Construction Equipment Inc,Synthetic Minor,700,Newport News City,3531,333120,0.06,0.00,0.07,0.00,10.02,0.01,0.00,10.15
+TRO,60995,Stihl Incorporated,Major/Potential Major,810,Virginia Beach City,3546,333991,93.55,0.00,4.42,0.16,26.47,0.46,0.00,125.05
+TRO,60996,HRSD - James River Sewage Treatment Plant,True Minor,700,Newport News City,4952,221320,2.10,0.00,2.94,0.11,20.55,0.18,0.00,25.89
+TRO,61017,Atlantic Pole Virginia LLC dba Atlantic Pole & Pil,True Minor,175,Southampton County,2491,321114,15.07,0.00,3.64,6.14,12.45,3.64,2.95,43.88
+TRO,61018,Wheelabrator Portsmouth Inc - RDF Facility,Major/Potential Major,740,Portsmouth City,4961,221330,246.08,0.00,1275.28,195.09,4.47,10.04,0.15,1731.11
+TRO,61019,Hampton/NASA Steam Plant,Major/Potential Major,650,Hampton City,4961,221330,28.21,0.00,104.78,75.80,3.35,1.66,0.00,213.80
+TRO,61039,Branscome Inc - Norfolk Westminster,Synthetic Minor,710,Norfolk City,2951,324121,11.76,0.00,2.35,0.31,2.89,5.81,0.00,23.11
+TRO,61048,JMS Foodservice LLC - Suffolk,Synthetic Minor,800,Suffolk City,2095,311920,15.44,0.00,50.63,13.46,3.39,3.41,0.00,86.34
+TRO,61049,Virginia Renewable Power - Portsmouth LLC,Major/Potential Major,740,Portsmouth City,4911,221112,126.41,0.00,157.25,386.61,0.32,3.03,1.44,675.06
+TRO,61078,Basic Construction - Newport News,Synthetic Minor,700,Newport News City,2951,324121,14.26,0.00,2.98,0.36,5.05,7.70,0.00,30.34
+TRO,61085,Kinyo Virginia Incorporated,Major/Potential Major,700,Newport News City,3069,326299,2.34,0.00,2.79,0.02,42.35,0.21,0.00,47.71
+TRO,61093,Dominion - Southampton Power Station,Major/Potential Major,175,Southampton County,4911,221112,580.19,0.00,281.57,14.30,15.04,14.37,11.12,916.60
+TRO,61100,Sonoco Products Company - Suffolk,Synthetic Minor,800,Suffolk City,2655,322219,0.00,0.00,0.00,0.00,19.16,0.00,0.00,19.16
+TRO,61108,Dominion - Elizabeth River CT Station,Major/Potential Major,550,Chesapeake City,4911,221112,38.70,0.00,83.30,11.30,2.43,5.75,5.75,147.24
+TRO,61115,Mid Atlantic Gin LLC,Synthetic Minor,175,Southampton County,0724,115111,0.00,0.00,0.00,0.00,0.00,12.42,1.99,14.42
+TRO,61126,Commonwealth Gin - Isle of Wight,Synthetic Minor,093,Isle of Wight County,0724,115111,0.00,0.00,0.00,0.00,0.00,12.63,0.00,12.63
+TRO,61137,Suffolk Energy Partners LLC,Synthetic Minor,800,Suffolk City,4911,221112,70.60,0.00,45.91,5.87,0.53,4.28,4.28,131.47
+TRO,61263,Commonwealth Gin - Southampton,Synthetic Minor,175,Southampton County,0724,115111,0.00,0.00,0.00,0.00,0.00,27.02,27.02,54.05
+TRO,61269,Suffolk Cotton Gin,Synthetic Minor,800,Suffolk City,0724,115111,0.00,0.00,0.00,0.00,0.00,15.36,0.00,15.36
+TRO,61274,"Lyon Shipyard, Incorporated - Brown Ave",Major/Potential Major,710,Norfolk City,3731,336611,0.01,0.00,0.06,0.00,13.17,5.89,0.59,19.73
+TRO,61284,Yupo Corporation,Synthetic Minor,550,Chesapeake City,3081,326113,3.33,0.00,3.56,0.03,16.92,1.84,0.00,25.69
+TRO,61291,USA Waste of Virginia Landfills - Bethel,Major/Potential Major,650,Hampton City,4953,562212,168.92,0.00,67.50,3.89,9.27,10.29,6.57,266.43
+TRO,61336,Flowers Baking Company of Norfolk,Synthetic Minor,710,Norfolk City,2051,311812,0.78,0.00,0.93,0.01,46.10,0.07,0.00,47.89
+TRO,61341,SPSA - Regional Landfill,Major/Potential Major,800,Suffolk City,4953,562212,35.71,0.00,6.55,1.41,20.84,1.80,1.80,68.11
+TRO,61347,Sorrentino Mariani & Company Incorporated,Synthetic Minor,710,Norfolk City,2511,337122,0.00,0.00,0.00,0.00,21.30,2.41,0.00,23.71
+TRO,61355,US Amines LLC - Portsmouth,Synthetic Minor,740,Portsmouth City,2869,325998,0.00,0.00,3.39,0.00,12.04,0.00,0.00,15.44
+TRO,61423,INGENCO Wholesale Power LLC - Virginia Beach Landfill II,Major/Potential Major,810,Virginia Beach City,4931,221111,13.35,0.00,12.22,0.80,1.65,0.83,0.80,29.65
+TRO,61426,Virginia Paving Company - Trant Ave,Synthetic Minor,710,Norfolk City,2951,324121,34.57,0.00,7.14,0.88,12.44,3.15,0.00,58.18
+TRO,61433,Eastman Chemical Resins Incorporated,Major/Potential Major,175,Southampton County,2861,325194,0.00,0.00,0.00,0.00,17.00,0.00,0.00,17.00
+TRO,61440,Arkema Inc - Franklin VA Site,Major/Potential Major,175,Southampton County,2869,325199,0.00,0.00,0.00,0.00,95.65,1.51,1.51,98.67
+TRO,61485,Lumber Liquidators Production LLC,Synthetic Minor,095,James City County,2426,321113,0.03,0.00,0.03,0.00,0.08,15.61,0.00,15.75
+TRO,61579,Royal Fumigation,Major/Potential Major,800,Suffolk City,4959,561710,0.00,0.00,0.00,0.00,22.30,0.00,0.00,22.30
+TRO,61583,Nicewood Enterprises - David Nice Builders Div,Synthetic Minor,095,James City County,2491,321114,0.00,0.00,0.00,0.00,14.06,0.00,0.00,14.06
+TRO,61653,Enviva Pellets Southampton LLC,Major/Potential Major,175,Southampton County,2499,321999,49.13,0.00,64.66,15.78,173.10,50.53,0.00,353.21
+TRO,61673,Franklin Lumber LLC,Major/Potential Major,093,Isle of Wight County,2421,321113,8.15,0.00,9.70,0.00,99.13,11.51,0.00,128.50
+TRO,61685,Perdue Foods LLC - Accomac Complex,Major/Potential Major,001,Accomack County,2015,311615,3.07,0.00,31.41,102.39,0.16,7.60,0.00,144.63
+VRO,40083,Columbia Gas Transmission Corp - Bickers,Major/Potential Major,079,Greene County,4922,486210,53.07,0.00,45.85,0.07,20.00,4.56,4.55,128.11
+VRO,40199,Dominion - Bremo Power Station,Major/Potential Major,065,Fluvanna County,4911,221112,13.97,0.00,150.41,0.66,5.10,6.84,6.84,183.81
+VRO,40200,University of Virginia,Major/Potential Major,540,Charlottesville City,8221,611310,72.24,0.00,74.62,20.24,3.61,8.01,4.23,182.95
+VRO,40464,Augusta Lumber - North Garden,Synthetic Minor,003,Albemarle County,2421,321912,20.25,0.00,7.43,0.84,0.57,13.57,0.00,42.66
+VRO,40731,Northland Forest Products Inc,Synthetic Minor,065,Fluvanna County,2421,321999,13.17,0.00,2.15,0.55,1.38,5.94,0.00,23.19
+VRO,40799,R A Yancey Lumber Corp,Synthetic Minor,003,Albemarle County,2421,321999,33.54,0.00,12.30,1.40,58.35,4.07,2.23,111.89
+VRO,40962,Turman Tye River LLC,Synthetic Minor,125,Nelson County,2421,321912,8.05,0.00,4.48,0.46,1.48,10.68,1.56,26.70
+VRO,40995,"Tenaska Virginia Partners, L.P.",Major/Potential Major,065,Fluvanna County,4911,221112,86.33,0.00,126.26,10.74,11.92,65.82,58.04,359.11
+VRO,40999,Rivanna Solid Waste Auth-Ivy Materials Util Ctr,Synthetic Minor,003,Albemarle County,4953,562212,28.00,0.00,1.60,0.00,3.05,0.70,0.00,33.35
+VRO,80027,B&S Contracting - Staunton Asphalt Plant,Synthetic Minor,790,Staunton City,2951,324121,21.02,0.00,6.30,0.58,0.43,2.24,0.00,30.58
+VRO,80028,Stuart M Perry Incorporated-Asphalt,Synthetic Minor,069,Frederick County,1422,212312,18.07,0.00,5.42,0.00,0.37,0.20,0.38,24.45
+VRO,80045,National Fruit Product Co Inc,Synthetic Minor,840,Winchester City,2033,311421,8.42,0.00,10.13,0.11,0.55,0.78,0.00,19.99
+VRO,80065,Georges Family Farms - Feed Mill,True Minor,171,Shenandoah County,2015,311615,1.01,0.00,1.22,0.03,0.07,42.32,0.00,44.63
+VRO,80077,Mundet-Hermetite Inc,Major/Potential Major,530,Buena Vista City,2754,323111,0.10,0.00,0.36,0.00,142.82,0.42,0.00,143.70
+VRO,80087,Cargill Turkey Production LLC,Synthetic Minor,660,Harrisonburg City,2048,311119,2.06,0.00,2.46,0.02,0.14,22.06,0.00,26.73
+VRO,80092,"Valley Proteins, Inc.",Major/Potential Major,069,Frederick County,2077,311613,4.66,0.00,23.03,38.60,5.13,5.91,0.64,77.96
+VRO,80115,Andros Foods North America,Synthetic Minor,171,Shenandoah County,2033,311421,4.20,0.00,18.44,19.71,0.39,1.89,0.98,45.61
+VRO,80117,JMU - James Madison University,Major/Potential Major,660,Harrisonburg City,8221,611310,26.07,0.00,18.46,0.75,1.83,2.57,2.55,52.24
+VRO,80144,Valley Proteins Inc - Linville,Major/Potential Major,165,Rockingham County,2077,311613,13.82,0.00,20.10,6.40,7.24,5.61,2.65,55.82
+VRO,80147,Howell Metal Co,Synthetic Minor,171,Shenandoah County,3351,331420,1.27,0.00,1.80,0.03,18.08,5.15,5.15,31.49
+VRO,80187,Pilgrims Pride Corporation - Timberville,Synthetic Minor,165,Rockingham County,2015,311615,13.61,0.00,16.21,0.10,3.93,8.55,0.00,42.39
+VRO,80237,Crown Cork & Seal USA Inc,Synthetic Minor,069,Frederick County,3411,332431,0.14,0.00,0.20,0.00,83.77,0.01,0.01,84.13
+VRO,80252,O-N Minerals (Chemstone) Company - Strasburg Lime,Major/Potential Major,171,Shenandoah County,3274,327410,120.12,0.00,128.96,4.81,1.60,19.84,19.86,295.19
+VRO,80269,Mohawk Industries Inc,Major/Potential Major,163,Rockbridge County,2273,314110,11.43,0.00,20.31,0.09,9.12,2.51,2.42,45.88
+VRO,80324,LCS Communications Strasburg Division,Synthetic Minor,171,Shenandoah County,2752,323111,0.25,0.00,1.10,0.01,16.16,0.02,0.00,17.54
+VRO,80333,O'Sullivan Films Inc,Major/Potential Major,840,Winchester City,3081,326113,21.17,0.00,16.27,0.34,57.97,18.37,1.00,115.12
+VRO,80400,Berryville Graphics Inc,Synthetic Minor,043,Clarke County,2732,323117,2.66,0.00,3.23,0.03,15.95,0.24,0.00,22.12
+VRO,80452,O-N Minerals (Chemstone) Company - Middletown,Synthetic Minor,069,Frederick County,1422,212312,0.16,0.00,1.25,4.19,0.01,10.77,0.00,16.39
+VRO,80480,American Hardwood Industries LLC,Synthetic Minor,820,Waynesboro City,2421,321918,28.21,0.00,23.04,1.18,4.87,12.91,0.00,70.21
+VRO,80515,Pactiv LLC - Grottoes Plastics Plant,Synthetic Minor,015,Augusta County,3081,326113,1.39,0.00,4.66,10.14,3.06,8.79,0.00,28.04
+VRO,80517,INVISTA S.a r.l. - Waynesboro,Major/Potential Major,820,Waynesboro City,2824,325220,11.75,0.00,11.44,0.19,125.79,2.35,2.35,153.86
+VRO,80524,Merck Sharp & Dohme Corporation,Major/Potential Major,165,Rockingham County,2834,325412,5.53,0.00,18.01,1.12,51.21,3.42,1.50,80.79
+VRO,80697,Unimin Corporation,Synthetic Minor,069,Frederick County,1446,212322,1.96,0.00,11.66,0.00,0.15,11.39,0.00,25.17
+VRO,80699,CED Enterprises Inc,Synthetic Minor,069,Frederick County,2819,325180,0.42,0.00,13.32,0.00,0.35,0.96,0.00,15.05
+VRO,80786,VPGC LLC- Broadway,Synthetic Minor,165,Rockingham County,2048,311119,1.85,0.00,2.21,0.02,0.12,18.09,0.99,23.28
+VRO,80795,Hollister Inc,Synthetic Minor,015,Augusta County,3842,339113,0.00,0.00,0.00,0.00,34.24,0.06,0.00,34.31
+VRO,80816,"LSC Communications US, Inc. - Harrisonburg South Manufacturing Division",Synthetic Minor,660,Harrisonburg City,2752,323111,1.50,0.00,1.78,0.01,12.28,0.14,0.14,15.84
+VRO,80828,The Omni Homestead,Synthetic Minor,017,Bath County,7011,721110,5.47,0.00,10.84,8.92,0.55,0.57,0.48,26.83
+VRO,80884,Augusta Petroleum Cooperative Inc,True Minor,015,Augusta County,5171,424710,0.00,0.00,0.00,0.00,12.56,0.00,0.00,12.56
+VRO,80992,Axalta Coating Systems LLC,Synthetic Minor,187,Warren County,2851,325510,6.14,0.00,7.31,0.04,50.48,1.23,0.56,65.76
+VRO,81000,"LSC Communications US, Inc - Harrisonburg Manufacturing Division",Major/Potential Major,165,Rockingham County,2732,323117,0.44,0.00,0.53,0.00,55.56,12.79,0.00,69.32
+VRO,81012,MillerCoors LLC,Major/Potential Major,165,Rockingham County,2082,312120,32.43,0.00,12.09,2.93,33.76,1.95,1.16,84.32
+VRO,81018,Hershey Chocolate of Virginia Inc,Synthetic Minor,015,Augusta County,2066,311352,1.50,0.00,6.50,0.09,29.99,7.36,0.26,45.70
+VRO,81062,Masco Cabinetry LLC,Major/Potential Major,171,Shenandoah County,2434,337110,7.47,0.00,1.36,0.44,387.11,7.30,8.47,412.15
+VRO,81076,Pilgrim's Pride Corporation,Synthetic Minor,660,Harrisonburg City,2048,311119,2.47,0.00,2.94,0.02,0.16,27.94,0.00,33.52
+VRO,81078,Everbrite LLC,Synthetic Minor,530,Buena Vista City,3993,339950,0.00,0.00,0.00,0.00,34.33,0.67,0.00,35.00
+VRO,81087,Mountain View Rendering Company LLC,Synthetic Minor,171,Shenandoah County,2011,311611,14.34,0.00,17.30,0.39,4.16,9.05,0.00,45.24
+VRO,81090,Ball Advanced Aluminum Technologies Corp - Verona,Synthetic Minor,015,Augusta County,3354,331318,8.45,0.00,10.06,0.06,89.66,11.88,11.87,131.98
+VRO,81095,Kingspan Insulation LLC,Major/Potential Major,069,Frederick County,3086,326140,0.96,0.00,0.50,0.01,254.59,0.69,0.21,256.95
+VRO,81096,McKee Foods Corporation,Synthetic Minor,015,Augusta County,2052,311919,2.58,0.00,3.07,0.02,17.60,3.72,0.63,27.62
+VRO,81111,Cellofoam North America Inc - Winchester,Major/Potential Major,069,Frederick County,3086,326140,0.00,0.00,0.00,0.00,125.58,0.00,0.00,125.58
+VRO,81112,"QG Printing II, Inc.",Synthetic Minor,069,Frederick County,2752,323111,0.00,0.00,2.97,0.00,35.40,0.00,0.00,38.37
+VRO,81133,Augusta Correctional Center,Synthetic Minor,015,Augusta County,9223,922140,16.93,0.00,2.88,0.63,5.92,9.03,0.00,35.39
+VRO,81139,Shenandoah Compressor Station,Major/Potential Major,139,Page County,4922,486210,10.57,0.00,15.00,0.00,2.75,0.04,0.00,28.36
+VRO,81156,Augusta Health Medical Center,Synthetic Minor,015,Augusta County,8062,622110,9.34,0.00,17.48,0.40,0.87,0.44,0.34,28.86
+VRO,81158,Green Bay Packaging Inc-Winchester Coated Products,Major/Potential Major,069,Frederick County,2672,322220,1.30,0.00,1.55,0.01,20.65,1.51,1.51,26.52
+VRO,81164,Trex Company Inc,Synthetic Minor,069,Frederick County,3089,326199,0.00,0.00,0.00,0.00,20.33,16.95,0.00,37.29
+VRO,81167,Blue Ridge Lumber,Synthetic Minor,015,Augusta County,2431,321918,0.24,0.00,1.23,21.37,0.49,7.12,0.00,30.45
+VRO,81237,Kraft Foods Group Inc,True Minor,069,Frederick County,2086,312111,9.20,0.00,10.95,0.07,0.60,0.83,0.00,21.65
+VRO,81247,Toray Plastics,Synthetic Minor,187,Warren County,3086,326150,17.64,0.00,7.55,0.00,8.36,10.50,2.13,46.18
+VRO,81286,Columbia Gas Transmission Corp - Strasburg Com Sta,Synthetic Minor,171,Shenandoah County,4922,486210,19.34,0.00,3.52,0.36,0.48,1.15,1.15,26.00
+VRO,81312,Frederick County Regional Landfill,Major/Potential Major,069,Frederick County,4953,562212,69.00,0.00,16.08,1.53,1.22,15.61,7.00,110.45
+VRO,81359,HP Hood LLC,Major/Potential Major,069,Frederick County,2026,311511,46.74,0.00,32.72,23.08,23.77,6.91,6.91,140.14
+VRO,81387,George's Foods LLC,Synthetic Minor,660,Harrisonburg City,2048,311119,1.86,0.00,2.24,0.16,0.12,11.36,0.00,15.74
+VRO,81391,Dominion -  Warren,Major/Potential Major,187,Warren County,4911,221112,10.79,0.00,116.60,12.86,0.54,30.71,11.22,182.70
+VRO,81537,Interbake Foods,True Minor,187,Warren County,2052,311812,11.43,0.00,13.61,0.00,0.75,1.03,0.00,26.83
+VRO,81569,Rockingham County Landfill,True Minor,165,Rockingham County,4953,562212,17.25,0.00,3.26,0.09,0.90,2.10,2.10,25.71
+VRO,81620,Montebello Packaging Inc,Synthetic Minor,660,Harrisonburg City,3354,331318,0.84,0.00,1.00,0.00,27.58,0.54,0.00,29.97
+Totals: ,Totals: ,Totals: ,Totals: ,Totals: ,Totals: ,Totals: ,Totals: ,33279.93,0.00,53594.78,45343.17,22679.46,11736.17,5606.21,172239.72
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
