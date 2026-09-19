@@ -8,6 +8,7 @@ from typing import Any
 import pandas as pd
 
 from src.schemas.proposal import Proposal
+from src.scoring.intent import classify_domain
 from src.scoring.score import rank_domain
 from src.scoring.weights import WEIGHTS
 
@@ -328,7 +329,13 @@ def build_public_reply(
             "my cost",
         )
     )
-    domain = "air" if asks_air and not asks_bill else "bill"
+    llm_label = classify_domain(query)
+    if llm_label is not None:
+        domain = "air" if llm_label == "air" else "bill"
+        routing_note = f"_Routed by local Llama 3.2 3B: `{llm_label}`._"
+    else:
+        domain = "air" if asks_air and not asks_bill else "bill"
+        routing_note = "_Routed by keyword match (local model unavailable)._"
     ranked = rank_domain(proposal, corpus, domain)
     if not ranked:
         return "No delivered evidence is available for that topic."
@@ -391,4 +398,5 @@ def build_public_reply(
             "not calculate a project-specific household charge."
         )
     sections.append(_public_card(selected))
+    sections.append(routing_note)
     return enforce_public_reply_contract("\n\n".join(sections))

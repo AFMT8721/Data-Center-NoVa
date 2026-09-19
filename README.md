@@ -33,9 +33,16 @@ uv run marimo check app/comparability_app.py
 uv run marimo run app/comparability_app.py
 ```
 
-The LLM is off. `mo.ui.chat` calls a deterministic response function that
-enforces citations, evidence labels, domain-specific score breakdowns, and the
-no-per-resident-prediction rule.
+`mo.ui.chat` calls a deterministic response function that enforces citations,
+evidence labels, domain-specific score breakdowns, and the
+no-per-resident-prediction rule. No model generates any part of an answer's
+content.
+
+Optionally, a local model (`ollama pull llama3.2:3b`, `brew services start
+ollama`) classifies each question as bill/air/both to route it, replacing a
+keyword match -- routing only, never content. If Ollama isn't running,
+`src/scoring/intent.py` fails closed and the app falls back to the keyword
+router automatically; nothing else changes.
 
 See `docs/open_issues.md` before interpreting results. DEQ permit rows describe
 what was permitted, not measured emissions. The 2015 emissions list is
