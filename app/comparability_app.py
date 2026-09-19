@@ -309,6 +309,52 @@ def _(mo, outcome_corpus, pd, proposal, rank_stability):
 
 
 @app.cell
+def _(PROJECT_ROOT, mo, pd):
+    _manifest = pd.read_csv(PROJECT_ROOT / "provenance" / "manifest.csv")
+
+    def _status(notes: str) -> str:
+        if "Verified via WebFetch" in notes:
+            return "Verified"
+        if "403 Forbidden" in notes or "TLS certificate" in notes:
+            return "Blocked (source refused fetch)"
+        return "Unverified"
+
+    def _url(value) -> str | None:
+        return value if isinstance(value, str) and value.startswith("http") else None
+
+    _rows = []
+    for _source, _group in _manifest.groupby("source", sort=False):
+        _first = _group.iloc[0]
+        _rows.append(
+            {
+                "Source": _source,
+                "Delivered files": len(_group),
+                "Verification status": _status(str(_first.get("notes", ""))),
+                "URL": _url(_first.get("query_or_url")),
+                "Pull-date basis": _first.get("date_basis"),
+            }
+        )
+    source_summary = pd.DataFrame(_rows)
+    source_panel = mo.vstack(
+        [
+            mo.callout(
+                "Read-only summary of where each delivered dataset came from. "
+                "\"Verified\" means a fetched page or document was checked this "
+                "session and matched the described source. \"Blocked\" means the "
+                "source domain refused automated access. \"Unverified\" means no "
+                "URL has been confirmed yet. Full per-file detail, including why "
+                "each field is null or unconfirmed, is in provenance/manifest.csv.",
+                kind="info",
+                title="How to read this table",
+            ),
+            mo.ui.table(source_summary, pagination=False),
+        ],
+        gap=1,
+    )
+    return (source_panel,)
+
+
+@app.cell
 def decision_dashboard(
     alt,
     aqi_map_data,
@@ -325,6 +371,7 @@ def decision_dashboard(
     resident_interface,
     selected_aqi,
     set_active_tab,
+    source_panel,
     stability_panel,
     vega_data,
 ):
@@ -565,12 +612,37 @@ def decision_dashboard(
             "Air quality": _air_panel,
             "Ask a question": _ask_panel,
             "Ranking stability": _method_panel,
+            "Data sources": source_panel,
         },
         value=get_active_tab(),
         on_change=set_active_tab,
         lazy=True,
     )
-    dashboard
+    _build_notes = mo.callout(
+        mo.md(
+            "- **LandMARC exports are capped at 1,000 rows per file** by the "
+            "source portal; five permit-export files delivered under different "
+            "date-range names turned out byte-identical, so the filenames' "
+            "implied date slicing is not real.\n"
+            "- **194 DEQ air-permit PDFs were extracted locally**; 36 have "
+            "OCR/text-encoding corruption severe enough to exclude them from "
+            "numeric fields. Generator fleet totals were filled only where a "
+            "permit has exactly one unambiguous equipment table with no "
+            "amendment history — amendments, mixed fleets, or split tables "
+            "are left null rather than estimated.\n"
+            "- **DEQ's site blocks automated URL verification** (HTTP 403 to "
+            "every fetch attempt). Most permit-PDF source URLs were instead "
+            "recovered from a manually supplied browser export and matched "
+            "back to files by registration number; a couple of rows stayed "
+            "unverified rather than guessed.\n"
+            "- **LandMARC has no project-scale (MW) field**, and daily AQI "
+            "readings are locality-level context only — neither can be "
+            "attributed to a specific site or generator."
+        ),
+        kind="neutral",
+        title="Data gaps navigated building this prototype",
+    )
+    mo.vstack([dashboard, _build_notes], gap=1)
     return
 
 
