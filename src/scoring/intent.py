@@ -24,14 +24,18 @@ Labels:
 - bill: about electricity cost, rates, or utility bills
 - air: about air quality, emissions, generators, or AQI
 - both: touches both bill and air topics, or the question is general/unclear
+  but plausibly about the data center proposal
+- unrelated: not about electricity bills, air quality, or the data center
+  proposal at all (small talk, off-topic trivia, nonsense, testing the bot)
 
 Question: {query}
 Label:"""
 
 
 def classify_domain(query: str) -> str | None:
-    """Return "bill", "air", or "both", or None if the local model is
-    unavailable or its output can't be parsed as one of those labels."""
+    """Return "bill", "air", "both", or "unrelated", or None if the local
+    model is unavailable or its output can't be parsed as one of those
+    labels."""
     payload = json.dumps(
         {
             "model": OLLAMA_MODEL,
@@ -50,4 +54,4 @@ def classify_domain(query: str) -> str | None:
         return None
 
     label = str(body.get("response", "")).strip().lower().strip(".")
-    return label if label in {"bill", "air", "both"} else None
+    return label if label in {"bill", "air", "both", "unrelated"} else None

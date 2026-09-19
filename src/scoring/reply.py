@@ -330,6 +330,14 @@ def build_public_reply(
         )
     )
     llm_label = classify_domain(query)
+    if llm_label == "unrelated":
+        return (
+            "I'm just a tiny open-source model running on someone's laptop — "
+            "what do you think I am, JARVIS?! I can only help with electricity "
+            "bills or air quality near a proposed data center. Try one of the "
+            "suggested questions above."
+            "\n\n_Routed by local Llama 3.2 3B: `unrelated`._"
+        )
     if llm_label is not None:
         domain = "air" if llm_label == "air" else "bill"
         routing_note = f"_Routed by local Llama 3.2 3B: `{llm_label}`._"
