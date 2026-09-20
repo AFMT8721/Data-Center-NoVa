@@ -1,20 +1,20 @@
 # Intent-routing benchmark
 
-Dataset: `data/curated/intent_eval.csv` (30 hand-labeled questions).
-Local model: `llama3.2:3b`. Answers remain deterministic.
+Dataset: `data/curated/intent_eval.csv` (40 hand-labeled questions).
+Local model: `llama3.2:3b`. Routing is evaluated independently of answer synthesis.
 
 ### Deterministic keyword baseline
-- Exact accuracy: 22/30 (73.3%)
+- Exact accuracy: 35/40 (87.5%)
 - Median latency: 0.0 ms/question
 - Total runtime: 0 ms
 - Unavailable classifications: 0
-- Misclassifications: bill_prediction → bill_context (1); both → bill_context (2); unrelated → bill_context (5)
+- Misclassifications: unrelated → bill_context (5)
 
 ### Local model
-- Exact accuracy: 30/30 (100.0%)
-- Median latency: 281.9 ms/question
-- Total runtime: 8429 ms
+- Exact accuracy: 39/40 (97.5%)
+- Median latency: 274.6 ms/question
+- Total runtime: 10955 ms
 - Unavailable classifications: 0
-- Misclassifications: none
+- Misclassifications: unrelated → greeting (1)
 
 This is a small demonstration set, not a production validation study.

@@ -15,6 +15,9 @@ from src.scoring import intent
         ("How many diesel generators does the permit allow?", "air_permit"),
         ("Compare bill and air evidence", "both"),
         ("What should residents know about this data center?", "both"),
+        ("Hello!", "greeting"),
+        ("What can you do?", "capabilities"),
+        ("Hi, what does the AQI map show?", "air_quality"),
     ],
 )
 def test_keyword_intent(query: str, expected: str) -> None:

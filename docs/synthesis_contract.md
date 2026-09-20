@@ -5,7 +5,7 @@ facts outside that evidence or replace deterministic evidence cards.
 
 ## Flow
 
-1. Classify the question into one of six intents.
+1. Classify the question into one of eight intents.
 2. Retrieve and score the relevant evidence subset.
 3. Send only selected records, proposal inputs, and the resident question to
    local `llama3.2:3b`.

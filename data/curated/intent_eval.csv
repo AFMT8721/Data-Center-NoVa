@@ -24,6 +24,16 @@ both,What should residents know about this data center proposal?
 both,Give me the overall comparison.
 both,How does this proposal compare across every available topic?
 both,What are the cost and pollution concerns together?
+greeting,Hello
+greeting,Hi there!
+greeting,Good morning.
+greeting,Howdy
+greeting,Thanks!
+capabilities,What can you do?
+capabilities,What can't you help me determine?
+capabilities,Explain your capabilities.
+capabilities,What are your limitations?
+capabilities,How should I use this assistant?
 unrelated,Who won the World Series?
 unrelated,Write me a poem about frogs.
 unrelated,What is the capital of France?

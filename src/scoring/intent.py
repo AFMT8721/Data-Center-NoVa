@@ -21,6 +21,8 @@ INTENTS = frozenset(
         "air_quality",
         "air_permit",
         "both",
+        "greeting",
+        "capabilities",
         "unrelated",
     }
 )
@@ -34,10 +36,13 @@ Intents:
 - air_quality: asks about AQI, monitored air, maps, or neighborhood breathing conditions
 - air_permit: asks about generators, diesel, permits, operating limits, or facility emissions
 - both: asks about both bill and air evidence, or asks generally about the proposal
+- greeting: only a greeting, thanks, or conversational pleasantry
+- capabilities: asks what the assistant can do, cannot do, or how to use it
 - unrelated: not about electricity bills, air quality, or the data center
 
 Use both only when both topics are explicit or no specific topic is named.
 Mentions of "proposal" or "data center" do not override a specific bill or air intent.
+A greeting followed by a substantive question takes the substantive intent.
 
 Examples:
 - "Explain the JLARC cost projection" -> bill_context
@@ -46,6 +51,10 @@ Examples:
 - "What limits apply to diesel generators?" -> air_permit
 - "Compare bill and air evidence" -> both
 - "What should residents know about this proposal?" -> both
+- "Hello" -> greeting
+- "Hi, what does the AQI map show?" -> air_quality
+- "What can you help me understand?" -> capabilities
+- "Tell me a joke" -> unrelated
 
 Question: {query}
 Intent:"""
@@ -65,6 +74,7 @@ def keyword_intent(query: str) -> str:
         "dominion",
         "novec",
         "charge",
+        " pay",
     )
     prediction_terms = (
         "my ",
@@ -85,6 +95,7 @@ def keyword_intent(query: str) -> str:
         "monitor",
         "breathing",
         "county air",
+        "pollution",
     )
     permit_terms = (
         "generator",
@@ -110,7 +121,47 @@ def keyword_intent(query: str) -> str:
         return "air_permit"
     if asks_air:
         return "air_quality"
-    if any(term in normalized for term in ("data center", "proposal", "compare", "impact")):
+    compact = re.sub(r"[^a-z ]+", "", normalized).strip()
+    if compact in {
+        "hi",
+        "hello",
+        "hey",
+        "howdy",
+        "greetings",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "thanks",
+        "thank you",
+        "how are you",
+    } or compact.startswith(("hi there", "hello there", "hey there")):
+        return "greeting"
+    if any(
+        phrase in normalized
+        for phrase in (
+            "what can you do",
+            "what cant you do",
+            "what can't you do",
+            "what cant you help",
+            "what can't you help",
+            "your capabilities",
+            "your limitations",
+            "how do i use",
+            "how should i use",
+        )
+    ):
+        return "capabilities"
+    if any(
+        term in normalized
+        for term in (
+            "data center",
+            "proposal",
+            "compare",
+            "comparison",
+            "overall",
+            "impact",
+        )
+    ):
         return "both"
     return "bill_context"
 

@@ -222,6 +222,8 @@ def _(
         resident_interface = mo.ui.chat(
             _resident_model,
             prompts=[
+                "Hello!",
+                "What can you do, and what can you not do?",
                 "Why is this bill evidence a good match?",
                 "What does the air map show for my county?",
                 "What do the DEQ permits say about backup generators?",

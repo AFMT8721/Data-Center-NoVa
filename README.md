@@ -39,11 +39,11 @@ no-per-resident-prediction rule. No model generates any part of an answer's
 content.
 
 Optionally, a local open-weight model (`ollama pull llama3.2:3b`,
-`brew services start ollama`) classifies each question into one of six intents:
+`brew services start ollama`) classifies each question into one of eight intents:
 household bill prediction, bill context, monitored air quality, permits and
-emissions, both topics, or unrelated. Routing selects a tailored deterministic
-answer and evidence subset; the model never writes answer content. If Ollama
-isn't running, `src/scoring/intent.py` uses a deterministic fallback.
+emissions, both topics, greetings, capabilities, or unrelated. Routing selects
+a tailored evidence subset and guarded response. If Ollama isn't running,
+`src/scoring/intent.py` uses a deterministic fallback.
 
 Run the small labeled comparison against that fallback with:
 
@@ -58,6 +58,8 @@ retrieved records; code rejects unknown citations, invented numbers,
 unsupported causal claims, and household-bill predictions. Evidence cards
 remain deterministic. Turn off **Validated AI synthesis** in the app for an
 immediate deterministic-only fallback. See `docs/synthesis_contract.md`.
+Household self-tracking links and their limits are documented in
+`docs/bill_self_tracking.md`.
 
 See `docs/open_issues.md` before interpreting results. DEQ permit rows describe
 what was permitted, not measured emissions. The 2015 emissions list is

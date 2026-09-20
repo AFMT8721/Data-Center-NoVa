@@ -44,6 +44,13 @@ PUBLIC_SOURCE_LABELS = {
     "industry-funded": "Industry-funded",
     "advocacy": "Advocacy organization",
 }
+DOMINION_USAGE_URL = "https://www.dominionenergy.com/mya"
+DOMINION_DETAILED_USAGE_URL = (
+    "https://www.dominionenergy.com/en/About/Delivering-Energy/"
+    "Electric-Projects/Smart-Meter-Upgrades/Detailed-Energy-Use"
+)
+NOVEC_USAGE_URL = "https://www.novec.com/NOVEC-SmartHub.cfm"
+GREEN_BUTTON_URL = "https://www.energy.gov/data/green-button"
 
 
 def _format_score(value: float | None) -> str:
@@ -362,6 +369,57 @@ def _select_air_quality(
     )
 
 
+def _bill_self_service(proposal: Proposal) -> str:
+    if proposal.utility_territory == "Dominion":
+        utility_steps = (
+            f"- Use [Dominion Manage Account]({DOMINION_USAGE_URL}) for hourly, "
+            "daily, and monthly usage. Customers with a communicating smart meter "
+            f"can enroll in [Detailed Energy Usage]({DOMINION_DETAILED_USAGE_URL}) "
+            "and download 30-minute interval data."
+        )
+    elif proposal.utility_territory == "NOVEC":
+        utility_steps = (
+            f"- Use [NOVEC SmartHub]({NOVEC_USAGE_URL}), then open **My Usage → "
+            "My Usage → Usage Explorer** to review billing history and usage trends."
+        )
+    else:
+        utility_steps = (
+            f"- Check your utility portal for usage history or "
+            f"[Green Button data]({GREEN_BUTTON_URL}). Dominion customers can use "
+            f"[Manage Account]({DOMINION_USAGE_URL}); NOVEC customers can use "
+            f"[SmartHub]({NOVEC_USAGE_URL})."
+        )
+    return "\n".join(
+        [
+            "### Track your actual household bill",
+            utility_steps,
+            "- Download at least 12 months. Compare billed kWh, total charge, "
+            "billing days, rate line items, and weather for the same month year over year.",
+            "- Note household changes such as HVAC use or electric vehicles. This "
+            "tracks what changed on your bill; it cannot isolate a data center's share.",
+        ]
+    )
+
+
+def _capability_declaration(proposal: Proposal) -> str:
+    return "\n\n".join(
+        [
+            "## What I can do",
+            "- Compare published residential-rate and JLARC bill evidence.\n"
+            "- Explain county AQI context.\n"
+            "- Summarize DEQ generator permits and historical facility emissions.\n"
+            "- Show citations, evidence labels, transfer limits, and similarity reasons.\n"
+            "- Compare bill and air evidence together.",
+            "## What I cannot do",
+            "- Predict one household's bill or one project's share of it.\n"
+            "- Attribute county AQI to one facility.\n"
+            "- Treat permitted limits as actual emissions.\n"
+            "- Verify an address's utility territory or access private utility accounts.",
+            _bill_self_service(proposal),
+        ]
+    )
+
+
 def build_public_reply(
     query: str,
     proposal: Proposal,
@@ -371,6 +429,23 @@ def build_public_reply(
     """Answer one resident question with plain-language, cited evidence."""
     model_intent = classify_intent(query)
     intent = model_intent or keyword_intent(query)
+    if model_intent is not None:
+        routing_note = f"_Routed by local Llama 3.2 3B: `{intent}`._"
+    else:
+        routing_note = (
+            f"_Routed by deterministic fallback: `{intent}` "
+            "(local model unavailable)._"
+        )
+    if intent == "greeting":
+        return (
+            "## Hello!\n\n"
+            "Ask me about household-bill evidence, utility-rate context, county "
+            "AQI, DEQ generator permits, or a combined comparison. Ask **“What "
+            "can you do?”** for details.\n\n"
+            + routing_note
+        )
+    if intent == "capabilities":
+        return _capability_declaration(proposal) + "\n\n" + routing_note
     if intent == "unrelated":
         return (
             "I'm just a tiny open-weight model running on someone's laptop — "
@@ -378,13 +453,6 @@ def build_public_reply(
             "bills or air quality near a proposed data center. Try one of the "
             "suggested questions above."
             "\n\n_Routed by local Llama 3.2 3B: `unrelated`._"
-        )
-    if model_intent is not None:
-        routing_note = f"_Routed by local Llama 3.2 3B: `{intent}`._"
-    else:
-        routing_note = (
-            f"_Routed by deterministic fallback: `{intent}` "
-            "(local model unavailable)._"
         )
 
     sections = ["## Plain-language answer"]
@@ -458,6 +526,8 @@ def build_public_reply(
             )
         selected_records = [selected]
         sections.append(_public_card(selected))
+        if intent == "bill_prediction":
+            sections.append(_bill_self_service(proposal))
     elif intent == "air_quality":
         ranked = _rank_for_intent(proposal, corpus, intent)
         if not ranked:

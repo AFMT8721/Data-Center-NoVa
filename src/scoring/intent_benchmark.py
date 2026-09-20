@@ -66,7 +66,7 @@ def build_report(cases_path: Path) -> str:
         "# Intent-routing benchmark",
         "",
         f"Dataset: `{display_path}` ({len(cases)} hand-labeled questions).",
-        f"Local model: `{OLLAMA_MODEL}`. Answers remain deterministic.",
+        f"Local model: `{OLLAMA_MODEL}`. Routing is evaluated independently of answer synthesis.",
         "",
         *_summary("Deterministic keyword baseline", keyword_results, keyword_ms),
         "",

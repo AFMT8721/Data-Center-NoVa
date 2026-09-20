@@ -85,6 +85,8 @@ def test_public_air_answer_explains_non_attribution() -> None:
         ("air_quality", "Can I breathe safely?", "County AQI records"),
         ("air_permit", "What do permits allow?", "allowed equipment"),
         ("both", "Give me the overview", "Best matching bill evidence"),
+        ("greeting", "Hello", "## Hello!"),
+        ("capabilities", "What can you do?", "## What I can do"),
         ("unrelated", "Write a frog poem", "JARVIS"),
     ],
 )
@@ -97,6 +99,33 @@ def test_model_intents_select_distinct_responses(
     assert expected in response
     if intent == "both":
         assert "Best matching air evidence" in response
+
+
+@pytest.mark.parametrize(
+    ("territory", "expected"),
+    [
+        ("Dominion", "Dominion Manage Account"),
+        ("NOVEC", "NOVEC SmartHub"),
+        ("unknown", "Green Button data"),
+    ],
+)
+def test_bill_prediction_offers_utility_tracking_resource(
+    monkeypatch, territory: str, expected: str
+) -> None:
+    monkeypatch.setattr(
+        reply_module,
+        "classify_intent",
+        lambda _query: "bill_prediction",
+    )
+    corpus = pd.read_parquet(ROOT / "data/processed/outcome_corpus.parquet")
+    response = build_public_reply(
+        "What will my monthly bill be?",
+        _proposal(territory),
+        corpus,
+    )
+    assert "Track your actual household bill" in response
+    assert expected in response
+    assert "cannot isolate a data center's share" in response
 
 
 def test_public_guard_blocks_unsupported_household_claim() -> None:
