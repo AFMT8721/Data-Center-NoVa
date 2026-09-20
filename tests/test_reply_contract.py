@@ -4,6 +4,7 @@ import pandas as pd
 import pytest
 
 from src.schemas.proposal import Proposal
+from src.scoring import reply as reply_module
 from src.scoring.reply import (
     build_public_reply,
     build_reply,
@@ -12,6 +13,11 @@ from src.scoring.reply import (
 )
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+@pytest.fixture(autouse=True)
+def _offline_model(monkeypatch) -> None:
+    monkeypatch.setattr(reply_module, "classify_intent", lambda _query: None)
 
 
 def _proposal(territory: str = "Dominion") -> Proposal:
@@ -67,9 +73,30 @@ def test_public_air_answer_explains_non_attribution() -> None:
         _proposal(),
         corpus,
     )
-    assert "monitored county conditions" in reply
+    assert "monitored air conditions" in reply
     assert "cannot identify which source caused" in reply
     assert "configured weight" not in reply
+
+
+@pytest.mark.parametrize(
+    ("intent", "query", "expected"),
+    [
+        ("bill_context", "Show the rate history", "historical rate context"),
+        ("air_quality", "Can I breathe safely?", "County AQI records"),
+        ("air_permit", "What do permits allow?", "allowed equipment"),
+        ("both", "Give me the overview", "Best matching bill evidence"),
+        ("unrelated", "Write a frog poem", "JARVIS"),
+    ],
+)
+def test_model_intents_select_distinct_responses(
+    monkeypatch, intent: str, query: str, expected: str
+) -> None:
+    monkeypatch.setattr(reply_module, "classify_intent", lambda _query: intent)
+    corpus = pd.read_parquet(ROOT / "data/processed/outcome_corpus.parquet")
+    response = build_public_reply(query, _proposal(), corpus)
+    assert expected in response
+    if intent == "both":
+        assert "Best matching air evidence" in response
 
 
 def test_public_guard_blocks_unsupported_household_claim() -> None:

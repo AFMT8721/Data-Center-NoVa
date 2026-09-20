@@ -8,7 +8,7 @@ from typing import Any
 import pandas as pd
 
 from src.schemas.proposal import Proposal
-from src.scoring.intent import classify_domain
+from src.scoring.intent import classify_intent, keyword_intent
 from src.scoring.score import rank_domain
 from src.scoring.weights import WEIGHTS
 
@@ -224,7 +224,9 @@ def _public_limit(record: dict[str, Any]) -> str:
     )
 
 
-def _public_card(record: dict[str, Any]) -> str:
+def _public_card(
+    record: dict[str, Any], heading: str = "Best matching evidence"
+) -> str:
     score = record["score"]
     score_text = (
         "Not enough delivered information to score"
@@ -248,7 +250,7 @@ def _public_card(record: dict[str, Any]) -> str:
     ]
     return "\n".join(
         [
-            "### Best matching evidence",
+            f"### {heading}",
             f"- **Evidence type:** {PUBLIC_OUTCOME_LABELS[record['outcome_type']]}",
             f"- **Area covered:** {PUBLIC_GRAIN_LABELS[record['spatial_grain']]}",
             f"- **Publisher type:** "
@@ -297,11 +299,66 @@ def enforce_public_reply_contract(reply: str) -> str:
         "Why it matched",
         "What this evidence can and cannot tell you",
     )
-    if "### Best matching evidence" in reply and any(
+    if "### Best matching" in reply and any(
         item not in reply for item in required
     ):
         raise ValueError("Public reply blocked an incomplete evidence summary")
     return reply
+
+
+def _rank_for_intent(
+    proposal: Proposal,
+    corpus: pd.DataFrame,
+    intent: str,
+) -> list[dict[str, Any]]:
+    if intent.startswith("bill_"):
+        return rank_domain(proposal, corpus, "bill")
+    if intent == "air_quality":
+        evidence = corpus.loc[
+            corpus["source_name"].eq("U.S. EPA daily AQI by county")
+        ]
+    elif intent == "air_permit":
+        evidence = corpus.loc[
+            corpus["outcome_type"].eq("permitted")
+            | corpus["source_name"].eq(
+                "Virginia DEQ 2015 criteria emissions inventory"
+            )
+        ]
+    else:
+        evidence = corpus
+    return rank_domain(proposal, evidence, "air")
+
+
+def _select_air_quality(
+    proposal: Proposal, ranked: list[dict[str, Any]]
+) -> dict[str, Any]:
+    normalized_locality = (
+        proposal.locality.casefold()
+        .replace(" county", "")
+        .replace(" city", "")
+        .strip()
+    )
+    local = [
+        record
+        for record in ranked
+        if normalized_locality
+        in str(record.get("geography_or_territory", "")).casefold()
+    ]
+    eligible = [
+        record
+        for record in local
+        if pd.notna(record.get("target_year"))
+        and int(record["target_year"]) <= proposal.filing_year
+    ]
+    choices = eligible or local or ranked
+    return max(
+        choices,
+        key=lambda record: (
+            int(record["target_year"])
+            if pd.notna(record.get("target_year"))
+            else -1
+        ),
+    )
 
 
 def build_public_reply(
@@ -310,101 +367,96 @@ def build_public_reply(
     corpus: pd.DataFrame,
 ) -> str:
     """Answer one resident question with plain-language, cited evidence."""
-    query_lower = query.casefold()
-    asks_air = any(
-        word in query_lower for word in ("air", "generator", "emission", "aqi", "map")
-    )
-    asks_bill = any(
-        word in query_lower for word in ("bill", "cost", "electric", "rate", "utility")
-    )
-    asks_household_cost = "bill" in query_lower and any(
-        phrase in query_lower
-        for phrase in (
-            "what",
-            "how much",
-            "estimate",
-            "predict",
-            "tell me",
-            "monthly",
-            "my cost",
-        )
-    )
-    llm_label = classify_domain(query)
-    if llm_label == "unrelated":
+    model_intent = classify_intent(query)
+    intent = model_intent or keyword_intent(query)
+    if intent == "unrelated":
         return (
-            "I'm just a tiny open-source model running on someone's laptop — "
+            "I'm just a tiny open-weight model running on someone's laptop — "
             "what do you think I am, JARVIS?! I can only help with electricity "
             "bills or air quality near a proposed data center. Try one of the "
             "suggested questions above."
             "\n\n_Routed by local Llama 3.2 3B: `unrelated`._"
         )
-    if llm_label is not None:
-        domain = "air" if llm_label == "air" else "bill"
-        routing_note = f"_Routed by local Llama 3.2 3B: `{llm_label}`._"
+    if model_intent is not None:
+        routing_note = f"_Routed by local Llama 3.2 3B: `{intent}`._"
     else:
-        domain = "air" if asks_air and not asks_bill else "bill"
-        routing_note = "_Routed by keyword match (local model unavailable)._"
-    ranked = rank_domain(proposal, corpus, domain)
-    if not ranked:
-        return "No delivered evidence is available for that topic."
-
-    if "map" in query_lower and domain == "air":
-        air_years = sorted(
-            corpus.loc[corpus["outcome_domain"].eq("air"), "target_year"]
-            .dropna()
-            .unique()
+        routing_note = (
+            f"_Routed by deterministic fallback: `{intent}` "
+            "(local model unavailable)._"
         )
-        map_year = air_years[-2] if len(air_years) > 1 else air_years[-1]
-        normalized_locality = (
-            proposal.locality.casefold()
-            .replace(" county", "")
-            .replace(" city", "")
-            .strip()
-        )
-        mapped = [
-            record
-            for record in ranked
-            if record.get("target_year") == map_year
-            and normalized_locality
-            in str(record.get("geography_or_territory", "")).casefold()
-        ]
-        selected = mapped[0] if mapped else ranked[0]
-    else:
-        selected = ranked[0]
 
     sections = ["## Plain-language answer"]
-    if domain == "bill":
+    if intent == "both":
+        bill_ranked = rank_domain(proposal, corpus, "bill")
+        air_ranked = _rank_for_intent(proposal, corpus, "air_quality")
+        if not bill_ranked or not air_ranked:
+            return "No delivered evidence is available for that topic."
         warning = _public_territory_warning(proposal)
         if warning:
             sections.append(warning)
-    if asks_household_cost:
-        anchor = next(
-            (
-                record
-                for record in ranked
-                if record["record_id"] == "jlarc-2024-dominion-bill-2040"
-            ),
-            selected,
-        )
         sections.append(
-            "This prototype **cannot estimate your household bill from one proposed "
-            "development**. JLARC projected that a typical Dominion residential "
-            "customer's generation and transmission costs could rise **$14 to $37 "
-            "per month by 2040** in constant 2024 dollars. That estimate covers "
-            "regional growth and is not attributable to this proposal."
+            "This prototype **cannot estimate your household bill** or attribute "
+            "neighborhood air conditions to one project. Here is one documented "
+            "record from each topic."
         )
-        selected = anchor
-    elif domain == "air":
+        sections.append(_public_card(bill_ranked[0], "Best matching bill evidence"))
         sections.append(
-            "The air display compares monitored county conditions. It does not "
+            _public_card(
+                _select_air_quality(proposal, air_ranked),
+                "Best matching air evidence",
+            )
+        )
+    elif intent in {"bill_prediction", "bill_context"}:
+        ranked = _rank_for_intent(proposal, corpus, intent)
+        if not ranked:
+            return "No delivered evidence is available for that topic."
+        warning = _public_territory_warning(proposal)
+        if warning:
+            sections.append(warning)
+        if intent == "bill_prediction":
+            selected = next(
+                (
+                    record
+                    for record in ranked
+                    if record["record_id"] == "jlarc-2024-dominion-bill-2040"
+                ),
+                ranked[0],
+            )
+            sections.append(
+                "This prototype **cannot estimate your household bill from one "
+                "proposed development**. JLARC projected that a typical Dominion "
+                "residential customer's generation and transmission costs could "
+                "rise **$14 to $37 per month by 2040** in constant 2024 dollars. "
+                "That estimate covers regional growth and is not attributable to "
+                "this proposal."
+            )
+        else:
+            selected = ranked[0]
+            sections.append(
+                "Published utility records provide historical rate context. This "
+                "prototype **cannot estimate your household bill** or isolate one "
+                "project's effect."
+            )
+        sections.append(_public_card(selected))
+    elif intent == "air_quality":
+        ranked = _rank_for_intent(proposal, corpus, intent)
+        if not ranked:
+            return "No delivered evidence is available for that topic."
+        sections.append(
+            "County AQI records describe monitored air conditions. They do not "
             "measure emissions from the proposed site or determine what caused "
-            "a high-AQI day."
+            "a particular reading."
         )
+        sections.append(_public_card(_select_air_quality(proposal, ranked)))
     else:
+        ranked = _rank_for_intent(proposal, corpus, "air_permit")
+        if not ranked:
+            return "No delivered evidence is available for that topic."
         sections.append(
-            "The bill display compares published utility-area evidence. It does "
-            "not calculate a project-specific household charge."
+            "DEQ permits describe allowed equipment and operating conditions—not "
+            "actual emissions. Matched 2015 inventory records are historical "
+            "facility-wide totals, not generator-only or current measurements."
         )
-    sections.append(_public_card(selected))
+        sections.append(_public_card(ranked[0]))
     sections.append(routing_note)
     return enforce_public_reply_contract("\n\n".join(sections))

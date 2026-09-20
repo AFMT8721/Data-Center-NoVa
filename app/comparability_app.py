@@ -212,6 +212,8 @@ def _(
             prompts=[
                 "Why is this bill evidence a good match?",
                 "What does the air map show for my county?",
+                    "What do the DEQ permits say about backup generators?",
+                    "Compare the bill and air evidence for this proposal.",
                 "Can this prototype tell me what my bill will be?",
             ],
             show_configuration_controls=False,

@@ -1,0 +1,31 @@
+expected_intent,query
+bill_prediction,What will my electricity bill be?
+bill_prediction,Will this make my monthly power payment go up?
+bill_prediction,How much more would my household pay?
+bill_prediction,Can you estimate what Dominion will charge me?
+bill_prediction,Will this project increase what I pay for electricity?
+bill_context,Show me historical residential electricity prices.
+bill_context,What published evidence exists about utility rates?
+bill_context,How have Dominion and NOVEC prices changed?
+bill_context,Explain the JLARC cost projection.
+bill_context,Which utility-area evidence best matches this proposal?
+air_quality,What does the AQI map show for Loudoun?
+air_quality,How has monitored county air quality changed?
+air_quality,What are the neighborhood breathing conditions?
+air_quality,Show the highest daily AQI near this site.
+air_quality,Can county monitors identify what caused a bad-air day?
+air_permit,How many diesel generators does the permit allow?
+air_permit,What pollutant limits appear in the DEQ permit?
+air_permit,Do we know the facility's measured emissions?
+air_permit,What operating limits apply to backup engines?
+air_permit,Are these generator emissions permitted or measured?
+both,Compare electricity-bill and air-quality evidence.
+both,What should residents know about this data center proposal?
+both,Give me the overall comparison.
+both,How does this proposal compare across every available topic?
+both,What are the cost and pollution concerns together?
+unrelated,Who won the World Series?
+unrelated,Write me a poem about frogs.
+unrelated,What is the capital of France?
+unrelated,Tell me a joke.
+unrelated,Can you help me plan dinner?
