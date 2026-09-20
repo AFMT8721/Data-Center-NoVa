@@ -96,6 +96,16 @@ def _(MAX_PROPOSAL_YEAR, MIN_PROPOSAL_YEAR, mo):
 
 
 @app.cell
+def _(mo):
+    synthesis_toggle = mo.ui.checkbox(
+        value=True,
+        label="Validated AI synthesis (turn off for deterministic-only answers)",
+    )
+    synthesis_toggle
+    return (synthesis_toggle,)
+
+
+@app.cell
 def tab_state(mo):
     get_active_tab, set_active_tab = mo.state("Start here")
     return get_active_tab, set_active_tab
@@ -110,6 +120,7 @@ def _(
     pd,
     proposal_fields,
     proposal_form,
+    synthesis_toggle,
 ):
     corpus_path = PROJECT_ROOT / "data" / "processed" / "outcome_corpus.parquet"
     outcome_corpus = pd.read_parquet(corpus_path)
@@ -197,23 +208,24 @@ def _(
             title="Chat waits for a proposal",
         )
     else:
-        def _deterministic_model(messages, config):
+        def _resident_model(messages, config):
             del config
             return mo.md(
                 build_public_reply(
                     str(messages[-1].content),
                     proposal,
                     outcome_corpus,
+                    use_model_synthesis=bool(synthesis_toggle.value),
                 )
             )
 
         resident_interface = mo.ui.chat(
-            _deterministic_model,
+            _resident_model,
             prompts=[
                 "Why is this bill evidence a good match?",
                 "What does the air map show for my county?",
-                    "What do the DEQ permits say about backup generators?",
-                    "Compare the bill and air evidence for this proposal.",
+                "What do the DEQ permits say about backup generators?",
+                "Compare the bill and air evidence for this proposal.",
                 "Can this prototype tell me what my bill will be?",
             ],
             show_configuration_controls=False,

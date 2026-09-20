@@ -53,6 +53,12 @@ uv run python -m src.scoring.intent_benchmark
 
 Results are written to `docs/intent_benchmark.md`.
 
+The app enables validated AI synthesis by default. The model summarizes only
+retrieved records; code rejects unknown citations, invented numbers,
+unsupported causal claims, and household-bill predictions. Evidence cards
+remain deterministic. Turn off **Validated AI synthesis** in the app for an
+immediate deterministic-only fallback. See `docs/synthesis_contract.md`.
+
 See `docs/open_issues.md` before interpreting results. DEQ permit rows describe
 what was permitted, not measured emissions. The 2015 emissions list is
 historical facility-wide context, five LandMARC Permit exports are

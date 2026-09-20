@@ -104,6 +104,51 @@ def test_public_guard_blocks_unsupported_household_claim() -> None:
         enforce_public_reply_contract("Your household bill will increase by $99.")
 
 
+def test_validated_synthesis_wraps_deterministic_evidence(monkeypatch) -> None:
+    monkeypatch.setattr(
+        reply_module,
+        "classify_intent",
+        lambda _query: "bill_prediction",
+    )
+    monkeypatch.setattr(
+        reply_module,
+        "synthesize_answer",
+        lambda *_args, **_kwargs: "Grounded summary [jlarc-2024-dominion-bill-2040].",
+    )
+    corpus = pd.read_parquet(ROOT / "data/processed/outcome_corpus.parquet")
+    response = build_public_reply(
+        "What will my bill be?",
+        _proposal(),
+        corpus,
+        use_model_synthesis=True,
+    )
+    assert "## Validated AI synthesis" in response
+    assert "### Best matching evidence" in response
+    assert "code validated citations and numbers" in response
+
+
+def test_rejected_synthesis_falls_back(monkeypatch) -> None:
+    monkeypatch.setattr(
+        reply_module,
+        "classify_intent",
+        lambda _query: "air_quality",
+    )
+    monkeypatch.setattr(
+        reply_module,
+        "synthesize_answer",
+        lambda *_args, **_kwargs: None,
+    )
+    corpus = pd.read_parquet(ROOT / "data/processed/outcome_corpus.parquet")
+    response = build_public_reply(
+        "What does the AQI map show?",
+        _proposal(),
+        corpus,
+        use_model_synthesis=True,
+    )
+    assert "deterministic evidence response shown" in response
+    assert "### Best matching evidence" in response
+
+
 @pytest.mark.parametrize(
     ("proposal_id", "expected_text", "absent_text"),
     [

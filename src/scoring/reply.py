@@ -10,6 +10,7 @@ import pandas as pd
 from src.schemas.proposal import Proposal
 from src.scoring.intent import classify_intent, keyword_intent
 from src.scoring.score import rank_domain
+from src.scoring.synthesis import synthesize_answer
 from src.scoring.weights import WEIGHTS
 
 MONEY_PATTERN = re.compile(r"\$\s?\d+(?:\.\d+)?")
@@ -365,6 +366,7 @@ def build_public_reply(
     query: str,
     proposal: Proposal,
     corpus: pd.DataFrame,
+    use_model_synthesis: bool = False,
 ) -> str:
     """Answer one resident question with plain-language, cited evidence."""
     model_intent = classify_intent(query)
@@ -386,6 +388,7 @@ def build_public_reply(
         )
 
     sections = ["## Plain-language answer"]
+    selected_records: list[dict[str, Any]] = []
     if intent == "both":
         bill_ranked = rank_domain(proposal, corpus, "bill")
         air_ranked = _rank_for_intent(proposal, corpus, "air_quality")
@@ -399,10 +402,12 @@ def build_public_reply(
             "neighborhood air conditions to one project. Here is one documented "
             "record from each topic."
         )
+        selected_air = _select_air_quality(proposal, air_ranked)
+        selected_records = [bill_ranked[0], selected_air]
         sections.append(_public_card(bill_ranked[0], "Best matching bill evidence"))
         sections.append(
             _public_card(
-                _select_air_quality(proposal, air_ranked),
+                selected_air,
                 "Best matching air evidence",
             )
         )
@@ -431,12 +436,27 @@ def build_public_reply(
                 "this proposal."
             )
         else:
-            selected = ranked[0]
+            selected = (
+                next(
+                    (
+                        record
+                        for record in ranked
+                        if record["record_id"] == "jlarc-2024-dominion-bill-2040"
+                    ),
+                    ranked[0],
+                )
+                if any(
+                    term in query.casefold()
+                    for term in ("jlarc", "projection", "projected")
+                )
+                else ranked[0]
+            )
             sections.append(
                 "Published utility records provide historical rate context. This "
                 "prototype **cannot estimate your household bill** or isolate one "
                 "project's effect."
             )
+        selected_records = [selected]
         sections.append(_public_card(selected))
     elif intent == "air_quality":
         ranked = _rank_for_intent(proposal, corpus, intent)
@@ -447,7 +467,9 @@ def build_public_reply(
             "measure emissions from the proposed site or determine what caused "
             "a particular reading."
         )
-        sections.append(_public_card(_select_air_quality(proposal, ranked)))
+        selected = _select_air_quality(proposal, ranked)
+        selected_records = [selected]
+        sections.append(_public_card(selected))
     else:
         ranked = _rank_for_intent(proposal, corpus, "air_permit")
         if not ranked:
@@ -457,6 +479,27 @@ def build_public_reply(
             "actual emissions. Matched 2015 inventory records are historical "
             "facility-wide totals, not generator-only or current measurements."
         )
+        selected_records = [ranked[0]]
         sections.append(_public_card(ranked[0]))
     sections.append(routing_note)
-    return enforce_public_reply_contract("\n\n".join(sections))
+    deterministic_reply = enforce_public_reply_contract("\n\n".join(sections))
+    if not use_model_synthesis:
+        return deterministic_reply
+    if model_intent is None:
+        return (
+            deterministic_reply
+            + "\n\n_AI synthesis skipped because the local model was unavailable; "
+            "deterministic evidence response shown._"
+        )
+    synthesis = synthesize_answer(query, intent, proposal, selected_records)
+    if synthesis is None:
+        return (
+            deterministic_reply
+            + "\n\n_AI synthesis unavailable or rejected by validation; "
+            "deterministic evidence response shown._"
+        )
+    combined = (
+        f"## Validated AI synthesis\n\n{synthesis}\n\n{deterministic_reply}"
+        "\n\n_AI wrote the summary; code validated citations and numbers._"
+    )
+    return enforce_public_reply_contract(combined)
